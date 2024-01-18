@@ -12,6 +12,6 @@ Spring 2024
 ## Team Members
 
 * Carrie Greeney
-Colin Fricke
+* Colin Fricke
 Saif Elsaady
 * Todd Hayes
