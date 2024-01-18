@@ -14,4 +14,4 @@ Spring 2024
 Carrie Greeney
 Colin Fricke
 Saif Elsaady
-Todd Hayes
+* Todd Hayes
