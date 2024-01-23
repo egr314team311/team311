@@ -58,6 +58,7 @@ _Table 2: Team Member Communication Modes_
    The team will communicate using a text message group chat for asynchronous discussion. This method is most effective as each individual is active on their cell phone which means that they will be able to check their messages more often, leading to better communication. The team will communicate through scheduled Discord meetings for discussions as it is the best possible way to communicate synchronously whilst respecting each other’s schedules and commitments. As a group we will handle instructor correspondence by assigning a person as a primary point of contact to the instructor, Dr. Nichols. This person will be responsible for distributing all information between the instructor and the team members.
 
 ## Meeting Schedule & Coordination
+
 | Name | Abbreviation | Email | Phone |
 | ---- | ------------ | ----- | ----- |
 | Todd | T | trhayes4@asu.edu | 916-747-8903 |
@@ -93,6 +94,7 @@ _Table 2: Team Member Communication Modes_
 
 ## Roles & Responsibilities
 _Table 3: Project Roles and Duties_
+
 |Name|Role|Duties|
 |-|-|-|
 |Saif Elsaady|Meeting leader|Schedules team meetings, creates and distributes an agenda for each meeting, and runs each meeting|
