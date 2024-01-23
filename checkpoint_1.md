@@ -1,8 +1,8 @@
 ---
-title: Background
+title: Checkpoint 1
 ---
 
-# Background
+# Checkpoint 1
 
 ## Introduction
 
