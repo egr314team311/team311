@@ -5,7 +5,7 @@ title: Checkpoint 1
 # Checkpoint 1
 
 ## Organization Charter
-**Team Goals**
+### Team Goals
 	The team has shared goals that reflect a successful product with regard to EGR314. These goals are as follows:
 * As a team we want to use this product design experience to further our future careers. 
 * We may improve our standing in the industry and create prospects for progress by iteratively enhancing the product in response to feedback. 
