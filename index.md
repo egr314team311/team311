@@ -15,3 +15,6 @@ Spring 2024
 * Colin Fricke
 * Saif Elsaady
 * Todd Hayes
+
+## Other Pages
+[**Checkpoint 1**](/checkpoint_1)
