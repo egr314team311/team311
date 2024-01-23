@@ -17,4 +17,4 @@ Spring 2024
 * Todd Hayes
 
 ## Other Pages
-[**Checkpoint 1**](/checkpoint_1)
+[Checkpoint 1](/checkpoint_1)
