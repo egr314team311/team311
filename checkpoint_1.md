@@ -30,10 +30,6 @@ The team charter is shown below:
 * Willingness to learn
 * Collaboration
 
-**Team's Goals**
-
-   Our goals are to successfully design, build, and test a mobile weather station that is both unique and fully functional. We aim to achieve seamless integration of I2C or SPI-based serial sensors and actuators, ensuring precision in data collection and responsiveness in environmental monitoring. We also strive to ensure that our project is ethical, original, and not replicative of existing concepts.
-
 **Team's Expectations**
 * Active participation
 * Consistent attendance
@@ -45,6 +41,8 @@ The team charter is shown below:
 
 ## Product Mission Statement:
    To successfully launch a mobile weather station, setting a new benchmark in environmental monitoring technology, and inspiring future innovations. Our device will aim to provide accurate measurements of various weather conditions including, but not limited to, temperature, light, and humidity.
+
+   As a team we discussed what was the most important aspect of each section of the organization charter. While discussing, we agreed on what values were important to the success of the team. These values gave us a healthy team dynamic as a base, from which we could build a cooperative group that completes work on time and with quality. We defined our purpose by highlighting the project details, ensuring all requirements would be included and accomplished. During our discussion we also set rules for what we expected of eachother, just so we could have a written reference of an agreement in the event that there was a conflict between the team. We have all agreed to uphold these expectations to the best of our ability. Finally, with all of the groundwork in place, we could focus on the product mission statement. In this discourse, the team went over what we intended to complete in this class, in accordance with the project details, focussing on what we were confident in, as well as what we knew was going to be a challenge. After all of this was written down, we could turn our attention to the user's needs.
 
 # User Needs, Benchmarking Product Requirements
 
