@@ -378,7 +378,7 @@ Urban planners in a city are seeking innovative solutions to enhance urban resil
 
 ## Aspects
 
-The aspects of the project highlighted below were carefully considered and confirmed to be integral to the projects requirements. In previous sections we determined what was important to include within the weather station, and the aspects are where we explicitly define said important needs and requirements.
+The aspects of the project highlighted below were carefully considered and confirmed to be integral to the project's requirements. In previous sections we determined what was important to include within the weather station, and the aspects are where we explicitly define said important needs and requirements. The aspects have been divided on to categories based on similar constraints, and loosely on the meta statements identified in the User Needs section. Each category included serveral statements that specifically emphasize a facet of what will be included in the final product
 
 **1. 	Product Design** 
 
@@ -422,7 +422,7 @@ The product’s design will be based on the following requirements:
 
 4.1   The product will turn off if not used for more than 15 minutes to save battery.
 
-4.2  The product will be able to record weather data.
+4.2   The product will be able to record weather data.
 
 4.3   The device will be able to recognise touch and prevent injury by conforming to in-the-way objects.
 
@@ -457,6 +457,8 @@ The product’s design will be based on the following requirements:
 7.4   All electrical parts will be secured and unreachable in the final project.
 
 # Design Ideation
+
+Every team member participated in the generation of ideas, and use of ChatGPT was also used to help combine our ideas into a single design. We found that the most effective brainstorming came when we were just talking in a regular conversation about the class, and what we would think would be cool to build or see built. From that conversation we had a lot of great concepts to build off on. We also found that giving a title to each idea or concept, regardless of how ridiculous, made it more real and seemed more feasible to us. Another topic that helped us with generation was going through our stakeholders' situations and what could possibly help them in relation to environmental sensing and response. After a lengthy discussion, our results are shown below:
 
 ## Generate Ideas
 
@@ -564,6 +566,8 @@ The product’s design will be based on the following requirements:
 ## Sort, Rank, and Group Design Concepts
 
 ![Figure_1_Design_Ideation](https://github.com/egr314team311/team311.github.io/assets/157044424/5945183f-4cde-438c-866e-d5f9b8069128)
+
+After our idea-vomit brainstorming session, we grouped similar ideas into 3 main categories, form which we could finalize a number of design that we could see ourselves pursuing into this semester's project.
 
 **1. Data-Driven Environmental Monitoring**
 
@@ -794,6 +798,8 @@ z. WeatherStation: Sensor Built Station
 aa. WeatherBackPack: Sensor Built Backpack
 
 ## Concept Sketches
+
+Each sketch was created from a carefully written prompt given to an artificial intelligence image generator. We were pleased with the results, however the image is not as accurate as we would've hoped. Aftera lot of deliberation, the final results are shown below. The artificial intelligence was not good at printing words into the images, so we've decided to ignore them in our description and presentation of the images.
 
 1. WeatherWizard: Atmospheric Magic Station
 
