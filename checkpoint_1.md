@@ -397,9 +397,15 @@ _Table 10: 1-2 Star Review Negative Comments_
 
 Figure 6: Jamboard of 100 Needs Statements (Needs are Overlapped)
 
+![Figure_6_User_Needs](https://github.com/egr314team311/team311.github.io/assets/157044424/d6d8a1c2-4215-4591-969b-0b8815762ca5)
+
 Figure 7: Notes Grouped into Categories
 
+![Figure_7_User_Needs](https://github.com/egr314team311/team311.github.io/assets/157044424/8bb78599-9c58-4f70-88cc-df2078fa0fce)
+
 Figure 8: Ranked Meta Need for Each Category
+
+![Figure_8_User_Needs](https://github.com/egr314team311/team311.github.io/assets/157044424/50fa6bf4-f156-45c6-a03e-1b305bd256c9)
 
 _Table 11: Categorized and Ranked User Needs_
 
@@ -627,6 +633,8 @@ The product’s design will be based on the following requirements:
 100. HydroHorizon: Moisture Monitoring Interface
 
 ## Sort, Rank, and Group Design Concepts
+
+![Figure_1_Design_Ideation](https://github.com/egr314team311/team311.github.io/assets/157044424/5945183f-4cde-438c-866e-d5f9b8069128)
 
 **1. Data-Driven Environmental Monitoring**
 
@@ -860,6 +868,12 @@ aa. WeatherBackPack: Sensor Built Backpack
 
 1. WeatherWizard: Atmospheric Magic Station
 
+![Figure_2_Design_Ideation](https://github.com/egr314team311/team311.github.io/assets/157044424/0cfb7c5f-4529-41fe-8903-dfff6ef428d4)
+
 2. ClimateCourier: Data Delivery System
 
+![Figure_3_Design_Ideation](https://github.com/egr314team311/team311.github.io/assets/157044424/a1b6b207-f0f0-4cd9-bb62-a915f3a7d01e)
+
 3. WeatherBackPack: Sensor Built Backpack
+
+![Figure_4_Design_Ideation](https://github.com/egr314team311/team311.github.io/assets/157044424/c5bbd2ea-e7a0-4d5e-b4a5-9caacb8e681e)
