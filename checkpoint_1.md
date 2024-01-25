@@ -445,7 +445,7 @@ Local Authorities: Authorities could benefit from additional weather data for em
 
 Farmers in a rural community want to optimize their agricultural practices by leveraging real-time weather data for better decision-making. A mobile weather station, developed by students, would play a crucial role in providing accurate and timely weather information for smart agriculture. This could improve crop yields and prevent a shortage.
 
-**User Story #2:**
+**User Story #2: Urban Planners**
 
 Urban planners in a city are seeking innovative solutions to enhance urban resilience and public safety. The mobile weather station, developed by students, would be employed to provide real-time weather data for urban planning and emergency response. This could lead to designing for preventative measures against natural disasters.
 
