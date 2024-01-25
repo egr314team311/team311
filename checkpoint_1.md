@@ -359,12 +359,12 @@ _Table 12: Primary Project Objectives_
 
 ## Stakeholders
 
-Environmentalists: They may support initiatives promoting environmental monitoring.
-Local Weather Agencies: They may benefit from the added data
-Weather Enthusiasts: Potential users are interested in real-time weather data as a hobby.
-Farmers: The agricultural community could benefit from real-time weather data, in making decision on farms.
-Local Authorities: Authorities could benefit from additional weather data for emergency response.
-Urban Planners: City architects and the like would appreciate data on weather patterns and intensities.
+* Environmentalists: They may support initiatives promoting environmental monitoring.
+* Local Weather Agencies: They may benefit from the added data
+* Weather Enthusiasts: Potential users are interested in real-time weather data as a hobby.
+* Farmers: The agricultural community could benefit from real-time weather data, in making decision on farms.
+* Local Authorities: Authorities could benefit from additional weather data for emergency response.
+* Urban Planners: City architects and the like would appreciate data on weather patterns and intensities.
 
 ## Use Cases
 
@@ -377,6 +377,8 @@ Farmers in a rural community want to optimize their agricultural practices by le
 Urban planners in a city are seeking innovative solutions to enhance urban resilience and public safety. The mobile weather station, developed by students, would be employed to provide real-time weather data for urban planning and emergency response. This could lead to designing for preventative measures against natural disasters.
 
 ## Aspects
+
+The aspects of the project highlighted below were carefully considered and confirmed to be integral to the projects requirements. In previous sections we determined what was important to include within the weather station, and the aspects are where we explicitly define said important needs and requirements.
 
 **1. 	Product Design** 
 
