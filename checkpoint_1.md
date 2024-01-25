@@ -48,6 +48,8 @@ The team charter is shown below:
 
 ## Identify User Needs
 
+The needs identified below were brainstormed by all of the team members based on the basis of the project as well as external benchmarking research with alternative products on the market. We also used artificial intelligence to generate a mass of concepts, from which we sifted through and built on ones that could be applicable to the project. All ideas were welcome and none were left out, regarless of how ridiculous they could seem.
+
 1. Accurate temperature readings (Explicit)
 2. Reliable humidity measurement (Explicit)
 3. Precise atmospheric pressure data (Explicit)
@@ -316,6 +318,8 @@ _Table 10: 1-2 Star Review Negative Comments_
 
 ## Organize
 
+The brainstorming for the user needs happened on a Jamboard, seen below, where we could throw out ideas, and sort them in the form of sticky notes, as well as color coding like ideas. After sorting based on similar categroies, we came up with a common theme for the group, and gave them each a meta statement. From there, we ranked the statements based on how frequent they popped up in the VOC Benchmarking as well as our own personal interpretation of what was most valuable to the project's success.
+
 Figure 6: Jamboard of 100 Needs Statements (Needs are Overlapped)
 
 ![Figure_6_User_Needs](https://github.com/egr314team311/team311.github.io/assets/157044424/d6d8a1c2-4215-4591-969b-0b8815762ca5)
@@ -339,7 +343,7 @@ _Table 11: Categorized and Ranked User Needs_
 
 ## Product Requirement Introduction
 
-Our task for this project is developing a system that can be alerted by environmental changes and react accordingly. The scope will also include transmitting data over Wifi and using an actuator communicated through serial communication. Our prototype will benefit the environment through accurate measurements and responsive care.
+Our task for this project is developing a system that can be alerted by environmental changes and react accordingly. The scope will also include transmitting data over Wifi and using an actuator communicated through serial communication. Our prototype will benefit the environment through accurate measurements and responsive care. In this section we define the requirements that must be included for the project to succeed, in a clear and succinct way. We also identified to which groups this project would be tailored to, and potential examples to highlight it.
 
 ## Objectives
 
@@ -358,7 +362,9 @@ _Table 12: Primary Project Objectives_
 Environmentalists: They may support initiatives promoting environmental monitoring.
 Local Weather Agencies: They may benefit from the added data
 Weather Enthusiasts: Potential users are interested in real-time weather data as a hobby.
+Farmers: The agricultural community could benefit from real-time weather data, in making decision on farms.
 Local Authorities: Authorities could benefit from additional weather data for emergency response.
+Urban Planners: City architects and the like would appreciate data on weather patterns and intensities.
 
 ## Use Cases
 
