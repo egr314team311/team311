@@ -4,6 +4,8 @@ title: Checkpoint 1
 
 # Checkpoint 1
 
+[Link to YouTube Presentation](https://youtu.be/6Pomm6B62Ug?feature=shared)
+
 # Organization Charter
 ## Team Goals
 
