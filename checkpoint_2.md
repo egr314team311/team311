@@ -815,7 +815,17 @@ Each sketch was created from a carefully written prompt given to an artificial i
 
 ![Figure_4_Design_Ideation](https://github.com/egr314team311/team311.github.io/assets/157044424/c5bbd2ea-e7a0-4d5e-b4a5-9caacb8e681e)
 
-# Presentation 
+# Selected Design
+
+# Block Diagram
+
+# Component Selection
+
+# Microcontroller Selection
+
+# Hardware Proposal
+
+# Software Proposal
 
 
 # Appendix A: Team Organization
