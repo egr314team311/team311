@@ -819,6 +819,8 @@ Each sketch was created from a carefully written prompt given to an artificial i
 
 # Block Diagram
 
+<img width="430" alt="image" src="https://github.com/egr314team311/team311.github.io/assets/157049797/1f13e323-fae1-491e-996f-9e296b2c036b">
+
 # Component Selection
 
 # Microcontroller Selection
