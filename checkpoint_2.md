@@ -2,9 +2,7 @@
 title: Checkpoint 1
 ---
 
-# Checkpoint 1
-
-[Link to YouTube Presentation](https://youtu.be/6Pomm6B62Ug?feature=shared)
+# Checkpoint 2
 
 # Organization Charter
 ## Team Goals
@@ -658,6 +656,57 @@ Each sketch was created from a carefully written prompt given to an artificial i
 <img width="430" alt="image" src="https://github.com/egr314team311/team311.github.io/assets/157049797/1f13e323-fae1-491e-996f-9e296b2c036b">
 
 # Component Selection
+
+**Power Supply**
+
+![Power_supply](https://github.com/egr314team311/team311.github.io/assets/157044424/0ca32452-60eb-4062-ac53-b68b9c520ea8)
+
+
+**Choice:** Panasonic 6LF22XWA/B 
+
+**Rationale:** The Panasonic 6LF22XWA/B seems to be the best option as it is the easiest battery for our users to get a hold of while still being fairly easy to work with for our product setup.
+
+**Humidity Sensor**
+
+![Humidity_sensor1](https://github.com/egr314team311/team311.github.io/assets/157044424/187161ce-ae3d-47dd-b6e2-c733565a1728)
+
+![Humidity_sensor2](https://github.com/egr314team311/team311.github.io/assets/157044424/20f4b97b-e631-4ed4-b204-afc314a403a2)
+
+**Choice:** Option 2 SENS HUMID/TMP 3.3V SPI 3% 8SOIC
+
+**Rationale:** It is the cheapest option so it helps us stay within budget. It also has the highest accuracy while still having a low input voltage and the required SPI output. 
+
+**3.3V Switching Regulator**
+
+![3 3V_Switching_Regualtor](https://github.com/egr314team311/team311.github.io/assets/157044424/0849a0c9-9188-48a6-9d02-91ce5d6c5fd9)
+
+**Choice:** LM2575S-3.3/NOPB
+
+**Rationale:** It offers a high-efficiency (up to 77%) step-down (buck) regulator capable of handling up to 1A of output current. Its simplicity of design, requiring minimal external components, combined with a wide input voltage range of 4V to 40V, makes it versatile and ideal for a broad range of applications, from simple consumer electronics to more complex industrial systems.
+
+![Motor_Driver](https://github.com/egr314team311/team311.github.io/assets/157044424/bb302ed1-da46-4ebf-8673-7ae12e9acaf2)
+
+![Motor_Sensor_2](https://github.com/egr314team311/team311.github.io/assets/157044424/09c2bab1-0947-478f-b6db-385920897dd4)
+
+**Choice:** Option 1: IFX9201SGAUMA1 IC HALF BRIDGE DRIVER 6A 12DSO
+
+**Rationale:** This option seemed to have the best qualities with the least amount of drawbacks. It will be easy enough to solder and have all the capabilities we need for this project.
+
+**Motor**
+
+![Motor](https://github.com/egr314team311/team311.github.io/assets/157044424/d51dfedf-38a4-41ea-9b12-6b1676ed5186)
+
+**Choice:** FIT0441 GEARMOTOR 159 RPM 12V BRUSHLESS
+
+**Rationale:** This motor has the benefit of having an incremental encoder for precision, as well as the capability we are looking for in terms of torque and RPM. Its datasheet is also incredibly helpful in controlling it.
+
+**Temperature Sensor**
+
+![Temperature_Sensor](https://github.com/egr314team311/team311.github.io/assets/157044424/8b28b46b-e7e1-40c2-a439-2463afe32aff)
+
+**Choice:** TC74A4-3.3VCTTR
+
+**Rationale:** The TC74A4-3.3VCTTR stands out as the best choice due to its straightforward digital I2C interface, which greatly simplifies integration with PIC microcontrollers, enabling easy data communication without complex programming. Additionally, its low operating voltage of 3.3V, low power consumption, and decent accuracy make it highly suitable for a wide range of applications, particularly those with power and space constraints.
 
 # Microcontroller Selection
 
