@@ -177,120 +177,6 @@ _Table 11: Categorized and Ranked User Needs_
 |Ease-of-use|The product needs to be easy for children to figure out and use.|**|
 |Safety|The product needs to safely interact with all users.|*|
 
-## Product Requirement Introduction
-
-Our task for this project is developing a system that can be alerted by environmental changes and react accordingly. The scope will also include transmitting data over Wifi and using an actuator communicated through serial communication. Our prototype will benefit the environment through accurate measurements and responsive care. In this section we define the requirements that must be included for the project to succeed, in a clear and succinct way. We also identified to which groups this project would be tailored to, and potential examples to highlight it.
-
-## Objectives
-
-_Table 12: Primary Project Objectives_
-
-|Objectives|
-|-|
-|Ensure sensors provide accurate data.|
-|Establish communication protocols for sensors.|
-|Design a power-efficient system.|
-|Design a real-time monitoring interface.|
-|Develop algorithms for processing temperature, humidity, and wind speed data.|
-
-## Stakeholders
-
-* Environmentalists: They may support initiatives promoting environmental monitoring.
-* Local Weather Agencies: They may benefit from the added data
-* Weather Enthusiasts: Potential users are interested in real-time weather data as a hobby.
-* Farmers: The agricultural community could benefit from real-time weather data, in making decision on farms.
-* Local Authorities: Authorities could benefit from additional weather data for emergency response.
-* Urban Planners: City architects and the like would appreciate data on weather patterns and intensities.
-
-## Use Cases
-
-**User Story #1: Farmers**
-
-Farmers in a rural community want to optimize their agricultural practices by leveraging real-time weather data for better decision-making. A mobile weather station, developed by students, would play a crucial role in providing accurate and timely weather information for smart agriculture. This could improve crop yields and prevent a shortage.
-
-**User Story #2: Urban Planners**
-
-Urban planners in a city are seeking innovative solutions to enhance urban resilience and public safety. The mobile weather station, developed by students, would be employed to provide real-time weather data for urban planning and emergency response. This could lead to designing for preventative measures against natural disasters.
-
-## Aspects
-
-The aspects of the project highlighted below were carefully considered and confirmed to be integral to the project's requirements. In previous sections we determined what was important to include within the weather station, and the aspects are where we explicitly define said important needs and requirements. The aspects have been divided on to categories based on similar constraints, and loosely on the meta statements identified in the User Needs section. Each category included serveral statements that specifically emphasize a facet of what will be included in the final product
-
-**1. 	Product Design** 
-
-The product’s design will be based on the following requirements:
-
-1.1   The weather station will have multiple sensors and actuators.
-
-1.2   The design will emphasize user-friendliness and comfort.
-
-1.3   The design will be as portable as possible.
-
-1.4   The design will have various sizes.
-
-1.5   The design will be durable.
-
-**2   	Functionality**
-
-2.1   The product will include a battery pack.
-
-2.2   The product will have a battery life of at least 2 hours.
-
-2.3   The product will be rechargeable.
-
-2.4   The product will have sensors to provide environmental feedback.
-
-2.5   The product will have buttons for the user to interact with.
-
-2.6   The product will have actuators to incorporate movement.
-
-2.7   The product will include LED lights for visual feedback.
-
-**3   	Interactivity**
-
-3.1   The product will have visual interaction.
-
-3.2   The product will be designed to prevent accidental use.
-
-3.3   The product will have tactile sensations.
-  
-**4   	Adaptive Intelligence**
-
-4.1   The product will turn off if not used for more than 15 minutes to save battery.
-
-4.2   The product will be able to record weather data.
-
-4.3   The device will be able to recognise touch and prevent injury by conforming to in-the-way objects.
-
-**5   	Customization**
-
-5.1   The product shall offer multiple visual options.
-
-5.2   Various cosmetic designs will be available.
-
-5.3   The design will include voice customization.
-
-**6   	Manufacturing**
-
-6.1   The total BOM cost price of the product shall be less than $240. 
-
-6.2  The construction of the product must be easy enough to understand to where a non-engineer can fix it if it were to be broken.
-
-6.3   The product will be manufactured so that the parts stay in place during use.
-
-6.4   Functioning of the device shall be easy to check by the manufacturer. 
-
-6.5   The product shall be designed to consist of the minimum possible amount of parts. 
-
-**7    Safety**
-
-7.1   The weather station will have round edges to prevent cuts.
-
-7.2   The design will be user-friendly.
-
-7.3   The design will be temperature regulated.
-
-7.4   All electrical parts will be secured and unreachable in the final project.
 
 # Design Ideation
 
@@ -399,239 +285,12 @@ Every team member participated in the generation of ideas, and use of ChatGPT wa
 99. WindWielder: Wind Force Manipulator
 100. HydroHorizon: Moisture Monitoring Interface
 
+See Appendix D for how we sorted the ideas down to three concepts
 ## Sort, Rank, and Group Design Concepts
 
 ![Figure_1_Design_Ideation](https://github.com/egr314team311/team311.github.io/assets/157044424/5945183f-4cde-438c-866e-d5f9b8069128)
 
-After our idea-vomit brainstorming session, we grouped similar ideas into 3 main categories, form which we could finalize a number of design that we could see ourselves pursuing into this semester's project.
 
-**1. Data-Driven Environmental Monitoring**
-
-a. Climate Sentinel: Mobile Sensory Network
-
-b. EcoTracker: Atmospheric Analytics
-
-c. WeatherMesh: Distributed Station System
-
-d. SkyPulse: Real-Time Weather Monitor
-
-e. ClimateGuard: Autonomous Weather Station
-
-f. EnviroCast: Smart Meteorological Station
-
-g. NatureNet: Wireless Weather Sensors
-
-h. AtmosFlux: Environmental Data Stream
-
-i. WeatherNest: Portable Climate Hub
-
-j. AirMap: Weather Sensory Array
-
-k. WindRover: Mobile Anemometer Unit
-
-l. Thermoscan: Temperature Analysis System
-
-m. Humiditech: Humidity and Control Station
-
-n. PressurEyes: Barometric Pressure Monitor
-
-o. HydroSkim: Water Vapor Analyzer
-
-p. TerraPulse: Earth Atmospheric Station
-
-q. NimbusNet: Cloud Data Collector
-
-r. ZephyrSync: Wind Speed Integrator
-
-s. PinnacleWeather: Peak Atmospheric Recorder
-
-t. PressurePlot: Barometric Mapping Tool
-
-u. WeatherWhisper: Subtle Climate Observer
-
-v. HydroHarbor: Humidity Calibration System
-
-w. AtmosAware: Pressure and Temperature Station
-
-x. WindWalk: Mobile Air Current Sensor
-
-y. ClimateChoreograph: Dynamic Weather System
-
-z. AirIntel: Intelligent Meteorological Data
-
-aa. TempTrend: Temperature Analytics Engine
-
-bb. HumidHawk: Precision Hygrometer
-
-cc. BreezeBrick: Compact Wind Sensor
-
-dd. ThermalTrail: Heat Mapping Device
-
-ee. MoistureMapper: Humidity and Dew Analyzer
-
-ff. CycloneCell: Storm Tracking Device
-
-gg. EcoOracle: Predictive Weather Station
-
-hh. PressurePioneer: Exploration Weather System
-
-ii. StratoStream: High-Altitude Weather Monitor
-
-jj. AtmosphereArchitect: Climate Control Station
-
-kk. BreezeBalancer: Wind Calibration System
-
-ll. ClimateConductor: Symphony of Sensors
-
-mm. SunSpotter: Solar Intensity Sensor
-
-nn. TempestTech: Storm Sensory System
-
-oo. AeroCast: Aerial Weather Station
-
-pp. EnviroEngine: Weather Mechanism Designer
-
-qq. HydroWatch: Water Cycle Monitor
-
-rr. ClimateComposer: Weather Harmony System
-
-ss. WeatherWorkshop: DIY Meteorological Lab
-
-tt. Airsmith: Crafting Weather Responses
-
-uu. ClimateCurator: Atmospheric Collection System
-
-vv. WeatherWeave: Climate Pattern Tracker
-
-ww. GaleGauge: Wind Speed Measurement Tool
-
-xx. AtmosphereAnalyzer: Climate Analysis Station
-
-**2. Interactive Climate Control Systems**
-
-a. ClimateChampion: Weather Competition Station
-
-b. VortexVent: Wind Flow Controller
-
-c. SunChase: Solar Tracking Mechanism
-
-d. WeatherWarden: Environmental Guardian
-
-e. ClimateConduit: Data Transmission Station
-
-f. StratusStream: Climate Streaming Service
-
-g. ClimateController: Temperature and Pressure Regulator
-
-h. SolarSentry: Photovoltaic Efficiency Monitor
-
-i. AeroAlert: Wind and Pressure Warning System
-
-j. ThermalNode: Heat Distribution Tracker
-
-k. WeatherWizard: Atmospheric Magic Station
-
-l. EnviroPilot: Autonomous Weather Drone
-
-m. ClimateCatalyst: Meteorological Reactor
-
-n. WindWhisperer: Gentle Breeze Sensor
-
-o. SolarSailor: Sun-Powered Weather Station
-
-p. AtmosphereAgent: Weather Spy Device
-
-q. ClimateCourier: Data Delivery System
-
-r. WeatherMelder: Climate Communication Hub
-
-s. AirArtisan: Crafted Weather Experience
-
-t. EcoEmissary: Green Weather Station
-
-u. ClimateCraftsman: Weather Device Maker
-
-v. SkyShepherd: Weather Flock Manager
-
-w. WeatherWaltz: Coordinated Climate System
-
-x. EcoElement: Elemental Weather Station
-
-y. SolarScribe: Sun Tracking Logger
-
-z. ClimateConcierge: Personalized Weather Assistant
-
-aa. StratoSphere: Upper Atmosphere Monitor
-
-bb. WeatherCrafter: Custom Climate Creator
-
-cc. ThermosphereThrone: High Temperature Monitor
-
-dd. WindWielder: Wind Force Manipulator
-
-ee. HydroHorizon: Moisture Monitoring Interface
-
-ff. SolarBreeze: Solar Panel Tracker
-
-gg. SunSync: Photovoltaic Positioning System
-
-hh. WeatherWise: Intelligent Forecast System
-
-**3. Innovative Weather Data Broadcasting**
-
-a. WeatherSphere: Integrated Climate System
-
-b. EnviroLink: IoT Weather Network
-
-c. ClimatePath: Weather Data Tracker
-
-d. SkyStream: Live Atmospheric Data
-
-e. EnviroCast: Smart Meteorological Station
-
-f. WeatherWise: Intelligent Forecast System
-
-g. NimbusNode: Cloud Conditions Monitor
-
-h. EcoEnvoy: Environmental Emissary
-
-i. ClimateCourier: Data Delivery System
-
-j. WeatherMelder: Climate Communication Hub
-
-k. AirIntel: Intelligent Meteorological Data
-
-l. ClimateChronicle: Weather Logging Station
-
-m. WeatherMelder: Climate Communication Hub
-
-n. ClimateConduit: Data Transmission Station
-
-o. StratoStream: High-Altitude Weather Monitor
-
-p. ClimateCourier: Data Delivery System
-
-q. WeatherWaltz: Coordinated Climate System
-
-r. EcoEmissary: Green Weather Station
-
-s. ClimateCraftsman: Weather Device Maker
-
-t. WeatherWizard: Atmospheric Magic Station
-
-u. AeroCast: Aerial Weather Station
-
-v. EnviroEngine: Weather Mechanism Designer
-
-w. HydroWatch: Water Cycle Monitor
-
-x. ClimateComposer: Weather Harmony System
-
-y. WeatherWorkshop: DIY Meteorological Lab
-
-z. WeatherStation: Sensor Built Station
-
-aa. WeatherBackPack: Sensor Built Backpack
 
 ## Concept Sketches
 
@@ -653,7 +312,7 @@ Each sketch was created from a carefully written prompt given to an artificial i
 
 # Block Diagram
 
-<img width="430" alt="image" src="https://github.com/egr314team311/team311.github.io/assets/157049797/1f13e323-fae1-491e-996f-9e296b2c036b">
+<img width="481" alt="image" src="https://github.com/egr314team311/team311.github.io/assets/157049797/ea46f389-c87b-4d69-bf94-aea8800b999e">
 
 # Component Selection
 
@@ -721,8 +380,7 @@ Each sketch was created from a carefully written prompt given to an artificial i
 
 # Software Proposal
 
-<img width="727" alt="image" src="https://github.com/egr314team311/team311.github.io/assets/157049797/476f0d22-809d-4caa-a353-d194b13dcce1">
-
+<img width="931" alt="image" src="https://github.com/egr314team311/team311.github.io/assets/157049797/25e2b61c-3305-4e0f-9691-129b6b23812d">
 
 # Appendix A: Team Organization
 
@@ -963,4 +621,350 @@ _Table 10: 1-2 Star Review Negative Comments_
 |“Took me at least 2 hours to read the horribly written manual and tried to set this thing up. All the parts are cheap plastic. It feels like it will break during installation. The manual is so hard to read. And setting this thing up took so long to figure out. And after I set it up it does not work! There's no reading on the screen and the screen is super dim. It's impossible to read the screen if you are outdoors.”|Detailed user manual (Explicit): The difficulty in understanding the poorly written manual highlights the need for clear, comprehensive instructions.|Reliable and durable hardware (Explicit): The concern that the parts feel like they will break during installation suggests a need for more robust and reliable hardware.|
 |“The weather forecasts are often inaccurate. I'm disappointed with this weather station. The outdoor sensor consistently fails to transmit data. The Wi-Fi connectivity is unreliable. It's not user-friendly. It's a frustrating and overpriced purchase.”|Accurate weather forecasting (Explicit): The dissatisfaction with the weather station's inaccurate forecasts points to the need for precise and reliable weather data.|Reliable wireless connectivity (Explicit): The issues with the outdoor sensor failing to transmit data and unreliable Wi-Fi connectivity underscore the need for stable and dependable wireless connections.|
 
+# Appendix C: Product Requirements
 
+Our task for this project is developing a system that can be alerted by environmental changes and react accordingly. The scope will also include transmitting data over Wifi and using an actuator communicated through serial communication. Our prototype will benefit the environment through accurate measurements and responsive care. In this section we define the requirements that must be included for the project to succeed, in a clear and succinct way. We also identified to which groups this project would be tailored to, and potential examples to highlight it.
+
+## Objectives
+
+_Table 12: Primary Project Objectives_
+
+|Objectives|
+|-|
+|Ensure sensors provide accurate data.|
+|Establish communication protocols for sensors.|
+|Design a power-efficient system.|
+|Design a real-time monitoring interface.|
+|Develop algorithms for processing temperature, humidity, and wind speed data.|
+
+## Stakeholders
+
+* Environmentalists: They may support initiatives promoting environmental monitoring.
+* Local Weather Agencies: They may benefit from the added data
+* Weather Enthusiasts: Potential users are interested in real-time weather data as a hobby.
+* Farmers: The agricultural community could benefit from real-time weather data, in making decision on farms.
+* Local Authorities: Authorities could benefit from additional weather data for emergency response.
+* Urban Planners: City architects and the like would appreciate data on weather patterns and intensities.
+
+## Use Cases
+
+**User Story #1: Farmers**
+
+Farmers in a rural community want to optimize their agricultural practices by leveraging real-time weather data for better decision-making. A mobile weather station, developed by students, would play a crucial role in providing accurate and timely weather information for smart agriculture. This could improve crop yields and prevent a shortage.
+
+**User Story #2: Urban Planners**
+
+Urban planners in a city are seeking innovative solutions to enhance urban resilience and public safety. The mobile weather station, developed by students, would be employed to provide real-time weather data for urban planning and emergency response. This could lead to designing for preventative measures against natural disasters.
+
+## Aspects
+
+The aspects of the project highlighted below were carefully considered and confirmed to be integral to the project's requirements. In previous sections we determined what was important to include within the weather station, and the aspects are where we explicitly define said important needs and requirements. The aspects have been divided on to categories based on similar constraints, and loosely on the meta statements identified in the User Needs section. Each category included serveral statements that specifically emphasize a facet of what will be included in the final product
+
+**1. 	Product Design** 
+
+The product’s design will be based on the following requirements:
+
+1.1   The weather station will have multiple sensors and actuators.
+
+1.2   The design will emphasize user-friendliness and comfort.
+
+1.3   The design will be as portable as possible.
+
+1.4   The design will have various sizes.
+
+1.5   The design will be durable.
+
+**2   	Functionality**
+
+2.1   The product will include a battery pack.
+
+2.2   The product will have a battery life of at least 2 hours.
+
+2.3   The product will be rechargeable.
+
+2.4   The product will have sensors to provide environmental feedback.
+
+2.5   The product will have buttons for the user to interact with.
+
+2.6   The product will have actuators to incorporate movement.
+
+2.7   The product will include LED lights for visual feedback.
+
+**3   	Interactivity**
+
+3.1   The product will have visual interaction.
+
+3.2   The product will be designed to prevent accidental use.
+
+3.3   The product will have tactile sensations.
+  
+**4   	Adaptive Intelligence**
+
+4.1   The product will turn off if not used for more than 15 minutes to save battery.
+
+4.2   The product will be able to record weather data.
+
+4.3   The device will be able to recognise touch and prevent injury by conforming to in-the-way objects.
+
+**5   	Customization**
+
+5.1   The product shall offer multiple visual options.
+
+5.2   Various cosmetic designs will be available.
+
+5.3   The design will include voice customization.
+
+**6   	Manufacturing**
+
+6.1   The total BOM cost price of the product shall be less than $240. 
+
+6.2  The construction of the product must be easy enough to understand to where a non-engineer can fix it if it were to be broken.
+
+6.3   The product will be manufactured so that the parts stay in place during use.
+
+6.4   Functioning of the device shall be easy to check by the manufacturer. 
+
+6.5   The product shall be designed to consist of the minimum possible amount of parts. 
+
+**7    Safety**
+
+7.1   The weather station will have round edges to prevent cuts.
+
+7.2   The design will be user-friendly.
+
+7.3   The design will be temperature regulated.
+
+7.4   All electrical parts will be secured and unreachable in the final project.
+
+
+# Appendix D: Sorting Design Ideas
+
+After our idea-vomit brainstorming session, we grouped similar ideas into 3 main categories, form which we could finalize a number of design that we could see ourselves pursuing into this semester's project.
+
+**1. Data-Driven Environmental Monitoring**
+
+a. Climate Sentinel: Mobile Sensory Network
+
+b. EcoTracker: Atmospheric Analytics
+
+c. WeatherMesh: Distributed Station System
+
+d. SkyPulse: Real-Time Weather Monitor
+
+e. ClimateGuard: Autonomous Weather Station
+
+f. EnviroCast: Smart Meteorological Station
+
+g. NatureNet: Wireless Weather Sensors
+
+h. AtmosFlux: Environmental Data Stream
+
+i. WeatherNest: Portable Climate Hub
+
+j. AirMap: Weather Sensory Array
+
+k. WindRover: Mobile Anemometer Unit
+
+l. Thermoscan: Temperature Analysis System
+
+m. Humiditech: Humidity and Control Station
+
+n. PressurEyes: Barometric Pressure Monitor
+
+o. HydroSkim: Water Vapor Analyzer
+
+p. TerraPulse: Earth Atmospheric Station
+
+q. NimbusNet: Cloud Data Collector
+
+r. ZephyrSync: Wind Speed Integrator
+
+s. PinnacleWeather: Peak Atmospheric Recorder
+
+t. PressurePlot: Barometric Mapping Tool
+
+u. WeatherWhisper: Subtle Climate Observer
+
+v. HydroHarbor: Humidity Calibration System
+
+w. AtmosAware: Pressure and Temperature Station
+
+x. WindWalk: Mobile Air Current Sensor
+
+y. ClimateChoreograph: Dynamic Weather System
+
+z. AirIntel: Intelligent Meteorological Data
+
+aa. TempTrend: Temperature Analytics Engine
+
+bb. HumidHawk: Precision Hygrometer
+
+cc. BreezeBrick: Compact Wind Sensor
+
+dd. ThermalTrail: Heat Mapping Device
+
+ee. MoistureMapper: Humidity and Dew Analyzer
+
+ff. CycloneCell: Storm Tracking Device
+
+gg. EcoOracle: Predictive Weather Station
+
+hh. PressurePioneer: Exploration Weather System
+
+ii. StratoStream: High-Altitude Weather Monitor
+
+jj. AtmosphereArchitect: Climate Control Station
+
+kk. BreezeBalancer: Wind Calibration System
+
+ll. ClimateConductor: Symphony of Sensors
+
+mm. SunSpotter: Solar Intensity Sensor
+
+nn. TempestTech: Storm Sensory System
+
+oo. AeroCast: Aerial Weather Station
+
+pp. EnviroEngine: Weather Mechanism Designer
+
+qq. HydroWatch: Water Cycle Monitor
+
+rr. ClimateComposer: Weather Harmony System
+
+ss. WeatherWorkshop: DIY Meteorological Lab
+
+tt. Airsmith: Crafting Weather Responses
+
+uu. ClimateCurator: Atmospheric Collection System
+
+vv. WeatherWeave: Climate Pattern Tracker
+
+ww. GaleGauge: Wind Speed Measurement Tool
+
+xx. AtmosphereAnalyzer: Climate Analysis Station
+
+**2. Interactive Climate Control Systems**
+
+a. ClimateChampion: Weather Competition Station
+
+b. VortexVent: Wind Flow Controller
+
+c. SunChase: Solar Tracking Mechanism
+
+d. WeatherWarden: Environmental Guardian
+
+e. ClimateConduit: Data Transmission Station
+
+f. StratusStream: Climate Streaming Service
+
+g. ClimateController: Temperature and Pressure Regulator
+
+h. SolarSentry: Photovoltaic Efficiency Monitor
+
+i. AeroAlert: Wind and Pressure Warning System
+
+j. ThermalNode: Heat Distribution Tracker
+
+k. WeatherWizard: Atmospheric Magic Station
+
+l. EnviroPilot: Autonomous Weather Drone
+
+m. ClimateCatalyst: Meteorological Reactor
+
+n. WindWhisperer: Gentle Breeze Sensor
+
+o. SolarSailor: Sun-Powered Weather Station
+
+p. AtmosphereAgent: Weather Spy Device
+
+q. ClimateCourier: Data Delivery System
+
+r. WeatherMelder: Climate Communication Hub
+
+s. AirArtisan: Crafted Weather Experience
+
+t. EcoEmissary: Green Weather Station
+
+u. ClimateCraftsman: Weather Device Maker
+
+v. SkyShepherd: Weather Flock Manager
+
+w. WeatherWaltz: Coordinated Climate System
+
+x. EcoElement: Elemental Weather Station
+
+y. SolarScribe: Sun Tracking Logger
+
+z. ClimateConcierge: Personalized Weather Assistant
+
+aa. StratoSphere: Upper Atmosphere Monitor
+
+bb. WeatherCrafter: Custom Climate Creator
+
+cc. ThermosphereThrone: High Temperature Monitor
+
+dd. WindWielder: Wind Force Manipulator
+
+ee. HydroHorizon: Moisture Monitoring Interface
+
+ff. SolarBreeze: Solar Panel Tracker
+
+gg. SunSync: Photovoltaic Positioning System
+
+hh. WeatherWise: Intelligent Forecast System
+
+**3. Innovative Weather Data Broadcasting**
+
+a. WeatherSphere: Integrated Climate System
+
+b. EnviroLink: IoT Weather Network
+
+c. ClimatePath: Weather Data Tracker
+
+d. SkyStream: Live Atmospheric Data
+
+e. EnviroCast: Smart Meteorological Station
+
+f. WeatherWise: Intelligent Forecast System
+
+g. NimbusNode: Cloud Conditions Monitor
+
+h. EcoEnvoy: Environmental Emissary
+
+i. ClimateCourier: Data Delivery System
+
+j. WeatherMelder: Climate Communication Hub
+
+k. AirIntel: Intelligent Meteorological Data
+
+l. ClimateChronicle: Weather Logging Station
+
+m. WeatherMelder: Climate Communication Hub
+
+n. ClimateConduit: Data Transmission Station
+
+o. StratoStream: High-Altitude Weather Monitor
+
+p. ClimateCourier: Data Delivery System
+
+q. WeatherWaltz: Coordinated Climate System
+
+r. EcoEmissary: Green Weather Station
+
+s. ClimateCraftsman: Weather Device Maker
+
+t. WeatherWizard: Atmospheric Magic Station
+
+u. AeroCast: Aerial Weather Station
+
+v. EnviroEngine: Weather Mechanism Designer
+
+w. HydroWatch: Water Cycle Monitor
+
+x. ClimateComposer: Weather Harmony System
+
+y. WeatherWorkshop: DIY Meteorological Lab
+
+z. WeatherStation: Sensor Built Station
+
+aa. WeatherBackPack: Sensor Built Backpack
