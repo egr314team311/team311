@@ -715,7 +715,7 @@ Each sketch was created from a carefully written prompt given to an artificial i
 ![Microcontroller_3](https://github.com/egr314team311/team311.github.io/assets/157044424/e6433a2b-ae50-4411-b3cf-2c322487e5ba)
 ![Microcontroller_4](https://github.com/egr314team311/team311.github.io/assets/157044424/8dbad3a6-519b-46d1-9077-921686a764fd)
 
-![Link to Microcontroller Page](https://www.microchip.com/en-us/product/PIC18F26Q24)
+[Link to Microcontroller Page](https://www.microchip.com/en-us/product/PIC18F26Q24)
 
 # Hardware Proposal
 
