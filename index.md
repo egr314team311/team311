@@ -2,9 +2,7 @@
 title: Home
 ---
 
-# Home
-
-## Automated Weather Station
+## The Weather Wizard
 
 EGR314
 Spring 2024
