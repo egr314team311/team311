@@ -1,6 +1,5 @@
----
-title: Home
----
+
+# Home
 
 ## The Weather Wizard
 
