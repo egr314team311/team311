@@ -390,6 +390,8 @@ In this section, we highlight the effort put into finding the correct microcontr
 
 Our hardware proposal details the schematic of how our PCB board will be laid out. Each section corresponds to a subsystem, which each team member is specializing in. 
 
+<img width="1202" alt="image" src="https://github.com/egr314team311/team311.github.io/assets/157049797/d44292a7-3306-4ab7-8dc4-d1cb8087e783">
+
 As well, here is a prototype of the layout of our team PCB. This is subject to change according to specific needs.
 
 <img width="644" alt="image" src="https://github.com/egr314team311/team311.github.io/assets/157049797/ef427433-c79c-43ed-ab41-687630a88754">
