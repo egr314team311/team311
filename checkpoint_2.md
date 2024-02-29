@@ -312,9 +312,11 @@ Each sketch was created from a carefully written prompt given to an artificial i
 
 After some edit to our original sketch, this design below is what we will end up pursuing for the final look of our project.
 
-https://drive.google.com/open?id=1W9KkPlfj_OStKBZTgH10W06e0MReCyk3&usp=drive_copy
+<img width="750" alt="Screenshot 2024-02-28 at 8 53 44 PM" src="https://github.com/egr314team311/team311.github.io/assets/157049797/d2c83435-305f-4127-9278-2d936b08f5f2">
 
 # Block Diagram
+
+Below is our updated block diagram. As one can see, we do not have anything on our 9V power rail. This is due to all of our components being able to be run at 3.3V or lower. Our battery has sufficient current to provide amperage to everything, as can be seen in Appendix X: Power Budget
 
 <img width="481" alt="image" src="https://github.com/egr314team311/team311.github.io/assets/157049797/ea46f389-c87b-4d69-bf94-aea8800b999e">
 
