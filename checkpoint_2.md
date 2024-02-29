@@ -310,6 +310,10 @@ Each sketch was created from a carefully written prompt given to an artificial i
 
 # Selected Design
 
+After some edit to our original sketch, this design below is what we will end up pursuing for the final look of our project.
+
+https://drive.google.com/open?id=1W9KkPlfj_OStKBZTgH10W06e0MReCyk3&usp=drive_copy
+
 # Block Diagram
 
 <img width="481" alt="image" src="https://github.com/egr314team311/team311.github.io/assets/157049797/ea46f389-c87b-4d69-bf94-aea8800b999e">
