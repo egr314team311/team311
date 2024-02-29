@@ -361,7 +361,7 @@ In researching for our product, we charted our possible components, comparing th
 
 ![Motor](https://github.com/egr314team311/team311.github.io/assets/157044424/d51dfedf-38a4-41ea-9b12-6b1676ed5186)
 
-**Choice:** FIT0441 GEARMOTOR 159 RPM 12V BRUSHLESS
+**Choice:** FIT0441 GEARMOTOR 159 RPM  (3V version)
 
 **Rationale:** This motor has the benefit of having an incremental encoder for precision, as well as the capability we are looking for in terms of torque and RPM. Its datasheet is also incredibly helpful in controlling it.
 
