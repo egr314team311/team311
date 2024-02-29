@@ -1,6 +1,3 @@
----
-title: Checkpoint 1
----
 
 # Checkpoint 2
 
@@ -286,6 +283,7 @@ Every team member participated in the generation of ideas, and use of ChatGPT wa
 100. HydroHorizon: Moisture Monitoring Interface
 
 See Appendix D for how we sorted the ideas down to three concepts
+
 ## Sort, Rank, and Group Design Concepts
 
 ![Figure_1_Design_Ideation](https://github.com/egr314team311/team311.github.io/assets/157044424/5945183f-4cde-438c-866e-d5f9b8069128)
@@ -375,6 +373,8 @@ In researching for our product, we charted our possible components, comparing th
 
 **Rationale:** The TC74A4-3.3VCTTR stands out as the best choice due to its straightforward digital I2C interface, which greatly simplifies integration with PIC microcontrollers, enabling easy data communication without complex programming. Additionally, its low operating voltage of 3.3V, low power consumption, and decent accuracy make it highly suitable for a wide range of applications, particularly those with power and space constraints.
 
+A full list of our components and materials can be found in Appendix F: BOM
+
 # Microcontroller Selection
 
 In this section, we highlight the effort put into finding the correct microcontroller for our project. There were many specifications to consider, so we have to carefully look at a varety of factors before ulitmately making a decision.
@@ -387,6 +387,18 @@ In this section, we highlight the effort put into finding the correct microcontr
 [Link to Microcontroller Page](https://www.microchip.com/en-us/product/PIC18F26Q24)
 
 # Hardware Proposal
+
+Our hardware proposal details the schematic of how our PCB board will be laid out. Each section corresponds to a subsystem, which each team member is specializing in. 
+
+As well, here is a prototype of the layout of our team PCB. This is subject to change according to specific needs.
+
+<img width="644" alt="image" src="https://github.com/egr314team311/team311.github.io/assets/157049797/ef427433-c79c-43ed-ab41-687630a88754">
+
+The back of the board as well:
+
+<img width="644" alt="image" src="https://github.com/egr314team311/team311.github.io/assets/157049797/1c928423-f390-4038-99da-b3dfd9ade3f2">
+
+
 
 # Software Proposal
 
@@ -981,7 +993,12 @@ z. WeatherStation: Sensor Built Station
 
 aa. WeatherBackPack: Sensor Built Backpack
 
- # Appendix E: Power Budget
+# Appendix E: Power Budget
 
  <img width="429" alt="image" src="https://github.com/egr314team311/team311.github.io/assets/157049797/3aff9504-baf6-49dc-be37-cbb90675ac52">
+
+# Appendix F: BOM
+
+<img width="1631" alt="image" src="https://github.com/egr314team311/team311.github.io/assets/157049797/3af7e059-9c0c-42ca-8da4-87ee9b1e6115">
+
 
