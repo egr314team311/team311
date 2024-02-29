@@ -316,11 +316,14 @@ After some edit to our original sketch, this design below is what we will end up
 
 # Block Diagram
 
-Below is our updated block diagram. As one can see, we do not have anything on our 9V power rail. This is due to all of our components being able to be run at 3.3V or lower. Our battery has sufficient current to provide amperage to everything, as can be seen in Appendix X: Power Budget
+Below is our updated block diagram. As one can see, we do not have anything on our 9V power rail. This is due to all of our components being able to be run at 3.3V or lower. Our battery has sufficient current to provide amperage to everything, as can be seen in Appendix E: Power Budget
 
 <img width="481" alt="image" src="https://github.com/egr314team311/team311.github.io/assets/157049797/ea46f389-c87b-4d69-bf94-aea8800b999e">
 
 # Component Selection
+
+In researching for our product, we charted our possible components, comparing the pros and cons of multiple options before deciding on one of them. Only the major components were detailed, as the minor parts can be gathered from class or the lab directly.
+
 
 **Power Supply**
 
@@ -374,6 +377,8 @@ Below is our updated block diagram. As one can see, we do not have anything on o
 **Rationale:** The TC74A4-3.3VCTTR stands out as the best choice due to its straightforward digital I2C interface, which greatly simplifies integration with PIC microcontrollers, enabling easy data communication without complex programming. Additionally, its low operating voltage of 3.3V, low power consumption, and decent accuracy make it highly suitable for a wide range of applications, particularly those with power and space constraints.
 
 # Microcontroller Selection
+
+In this section, we highlight the effort put into finding the correct microcontroller for our project. There were mayn specifications to consider, so we have to carefully look at a varety of factors before ulitmately making a decision.
 
 ![Microcontroller_1](https://github.com/egr314team311/team311.github.io/assets/157044424/f1630acd-7bd2-4026-9686-a3216fc5bbfe)
 ![Microcontroller_2](https://github.com/egr314team311/team311.github.io/assets/157044424/ee9db6d1-e057-488c-afbb-f66444dddabb)
@@ -974,3 +979,8 @@ y. WeatherWorkshop: DIY Meteorological Lab
 z. WeatherStation: Sensor Built Station
 
 aa. WeatherBackPack: Sensor Built Backpack
+
+ # Appendix E: Power Budget
+
+ <img width="429" alt="image" src="https://github.com/egr314team311/team311.github.io/assets/157049797/3aff9504-baf6-49dc-be37-cbb90675ac52">
+
