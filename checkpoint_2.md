@@ -377,7 +377,7 @@ In researching for our product, we charted our possible components, comparing th
 
 # Microcontroller Selection
 
-In this section, we highlight the effort put into finding the correct microcontroller for our project. There were mayn specifications to consider, so we have to carefully look at a varety of factors before ulitmately making a decision.
+In this section, we highlight the effort put into finding the correct microcontroller for our project. There were many specifications to consider, so we have to carefully look at a varety of factors before ulitmately making a decision.
 
 ![Microcontroller_1](https://github.com/egr314team311/team311.github.io/assets/157044424/f1630acd-7bd2-4026-9686-a3216fc5bbfe)
 ![Microcontroller_2](https://github.com/egr314team311/team311.github.io/assets/157044424/ee9db6d1-e057-488c-afbb-f66444dddabb)
@@ -389,6 +389,8 @@ In this section, we highlight the effort put into finding the correct microcontr
 # Hardware Proposal
 
 # Software Proposal
+
+Below is a UML diagram that proposes a logic flow for the software we plan to implant in the PCB. It follows a reader-friendly pseudocode that will implement many feedback responses to let the user know when the product detects either a temperature or humidity level outside of the desired threshold. There are plans in the future to be able to have the threshold be determined by user input, but such a development will have to wait until the team is more well versed in ESP32 functionality.
 
 <img width="931" alt="image" src="https://github.com/egr314team311/team311.github.io/assets/157049797/25e2b61c-3305-4e0f-9691-129b6b23812d">
 
