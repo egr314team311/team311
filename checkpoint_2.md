@@ -291,7 +291,6 @@ See Appendix D for how we sorted the ideas down to three concepts
 ![Figure_1_Design_Ideation](https://github.com/egr314team311/team311.github.io/assets/157044424/5945183f-4cde-438c-866e-d5f9b8069128)
 
 
-
 ## Concept Sketches
 
 Each sketch was created from a carefully written prompt given to an artificial intelligence image generator. We were pleased with the results, however the image is not as accurate as we would've hoped. Aftera lot of deliberation, the final results are shown below. The artificial intelligence was not good at printing words into the images, so we've decided to ignore them in our description and presentation of the images.
@@ -310,19 +309,19 @@ Each sketch was created from a carefully written prompt given to an artificial i
 
 # Selected Design
 
-After some edit to our original sketch, this design below is what we will end up pursuing for the final look of our project.
+After some edits to our original sketch, this design below is what we will end up pursuing for the final look of our project. We decided to go for a clean and modern asthetic that still ties in elements of nature. The sheep was a byproduct of the prompt, and should be ignored. Our design also will include a variety of LED fixtures that will highlight the intensity of the sensors readings.
 
 <img width="750" alt="Screenshot 2024-02-28 at 8 53 44 PM" src="https://github.com/egr314team311/team311.github.io/assets/157049797/d2c83435-305f-4127-9278-2d936b08f5f2">
 
 # Block Diagram
 
-Below is our updated block diagram. As one can see, we do not have anything on our 9V power rail. This is due to all of our components being able to be run at 3.3V or lower. Our battery has sufficient current to provide amperage to everything, as can be seen in Appendix E: Power Budget
+Below is our updated block diagram. As one can see, we do not have anything on our 9V power rail. This is due to all of our components being able to be run at 3.3V or lower. Our battery has sufficient current to provide amperage to everything, as can be seen in Appendix E: Power Budget. Only the major components are shown here.
 
 <img width="481" alt="image" src="https://github.com/egr314team311/team311.github.io/assets/157049797/ea46f389-c87b-4d69-bf94-aea8800b999e">
 
 # Component Selection
 
-In researching for our product, we charted our possible components, comparing the pros and cons of multiple options before deciding on one of them. Only the major components were detailed, as the minor parts can be gathered from class or the lab directly.
+In researching for our product, we charted our possible components, comparing the pros and cons of multiple options before deciding on a winner. Only the major components were detailed, as the minor parts can be gathered from class or the lab directly.
 
 
 **Power Supply**
