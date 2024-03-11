@@ -11,31 +11,6 @@ The team has shared goals that reflect a successful product with regard to EGR31
 * To achieve seamless integration of I2C or SPI-based serial sensors and actuators, ensuring precision in data collection and responsiveness in environmental monitoring. 
 * To strive to ensure that our project is ethical, original, and not replicative of existing concepts.
 
-The team charter is shown below:
-
-**Team's Purpose**
-
-   To innovate and create a mobile weather station, that integrates advanced serial sensing and actuation to measure environmental conditions and broadcasts the data in real-time over the internet. To contribute to environmental science by providing reliable, and real-time data.
-
-**Team's Values**
-* Respect
-* Ethical behavior
-* Communication
-* Time management
-* Adaptability
-* Empathy
-* Willingness to learn
-* Collaboration
-
-**Team's Expectations**
-* Active participation
-* Consistent attendance
-* Respectful behavior
-* Collaboration at all times
-* Consistent communication
-* Professionalism
-* Problem solving
-
 ## Product Mission Statement:
    To successfully launch a mobile weather station, setting a new benchmark in environmental monitoring technology, and inspiring future innovations. Our device will aim to provide accurate measurements of various weather conditions including, but not limited to, temperature, light, and humidity.
 
@@ -45,109 +20,7 @@ The team charter is shown below:
 
 ## Identify User Needs
 
-The needs identified below were brainstormed by all of the team members based on the basis of the project as well as external benchmarking research with alternative products on the market. We also used artificial intelligence to generate a mass of concepts, from which we sifted through and built on ones that could be applicable to the project. All ideas were welcome and none were left out, regarless of how ridiculous they could seem.
-
-1. Accurate temperature readings (Explicit)
-2. Reliable humidity measurement (Explicit)
-3. Precise atmospheric pressure data (Explicit)
-4. Accurate wind speed monitoring (Explicit)
-5. Real-time data updates (Explicit)
-6. Easy-to-read display (Explicit)
-7. Durable in various weather conditions (Explicit)
-8. Portable design (Explicit)
-9. Long battery life (Explicit)
-10. Solar power option (Latent)
-11. Wireless data transmission (Explicit)
-12. User-friendly interface (Explicit)
-13. Data logging capabilities (Explicit)
-14. Alarm system for extreme conditions (Latent)
-15. Affordable cost (Explicit)
-16. Low maintenance requirements (Explicit)
-17. Accessibility features for visually impaired (Latent)
-18. Voice-controlled operation (Latent)
-19. Multilingual support (Latent)
-20. Customizable alerts (Latent)
-21. Historical weather data access (Latent)
-22. Integration with smart home devices (Latent)
-23. Educational features for students (Latent)
-24. Compact size for easy storage (Latent)
-25. Lightweight for mobility (Latent)
-26. Resistance to water and dust (Explicit)
-27. Compatibility with various operating systems (Latent)
-28. Data sharing options (Latent)
-29. Graphical data presentation (Latent)
-30. Predictive weather analytics (Latent)
-31. Calibration features (Explicit)
-32. Secure data storage (Explicit)
-33. Cloud connectivity (Latent)
-34. API for developers (Latent)
-35. Environmentally friendly materials (Latent)
-36. Customizable sensor settings (Latent)
-37. Community sharing features (Latent)
-38. Multi-sensor support (Explicit)
-39. Firmware upgradability (Latent)
-40. Robust technical support (Latent)
-41. Automated data reporting (Latent)
-42. Energy-efficient design (Latent)
-43. Impact resistance (Explicit)
-44. Wide operating temperature range (Explicit)
-45. Quick setup process (Explicit)
-46. Detailed user manual (Explicit)
-47. Compliance with safety standards (Explicit)
-48. Warranty and service options (Explicit)
-49. Minimal false alarms (Explicit)
-50. Stylish aesthetic design (Latent)
-51. Customizable display options (Latent)
-52. Integration with educational software (Latent)
-53. Social media sharing capabilities (Latent)
-54. Multi-user access (Latent)
-55. Remote monitoring capabilities (Latent)
-56. Weather trend analysis (Latent)
-57. Eco-friendly operation (Latent)
-58. Silent operation (Latent)
-59. Heat resistance (Explicit)
-60. Freeze resistance (Explicit)
-61. Scalable system for additional sensors (Latent)
-62. Color-coded data presentation (Latent)
-63. Touch screen interface (Latent)
-64. Audio feedback for alerts (Latent)
-65. Vibration alerts (Latent)
-66. Custom alarm thresholds (Latent)
-67. Geolocation features (Latent)
-68. Time-stamped data records (Explicit)
-69. User feedback mechanism (Latent)
-70. Integration with GIS systems (Latent)
-71. Night mode display (Latent)
-72. Adjustable sensor sensitivity (Latent)
-73. Indoor and outdoor functionality (Latent)
-74. Automated system diagnostics (Latent)
-75. Data export in multiple formats (Latent)
-76. Compatibility with renewable energy sources (Latent)
-77. Hands-free operation options (Latent)
-78. Multifunctional use cases (Latent)
-79. Modular design for upgrades (Latent)
-80. IoT connectivity options (Latent)
-81. User community forums (Latent)
-82. Adaptive learning features (Latent)
-83. Customizable data sampling rates (Latent)
-84. Multi-channel data transmission (Latent)
-85. Support for multiple time zones (Latent)
-86. UV index measurement (Latent)
-87. Air quality monitoring (Latent)
-88. Seismic activity monitoring (Latent)
-89. Flood warning capabilities (Latent)
-90. Heat index calculation (Latent)
-91. Wind chill factor calculation (Latent)
-92. Dew point calculation (Latent)
-93. Sunrise and sunset times (Latent)
-94. Moon phase display (Latent)
-95. Tidal information (Latent)
-96. Seasonal weather predictions (Latent)
-97. Agricultural applications (Latent)
-98. Marine weather features (Latent)
-99. Aviation weather data (Latent)
-100. Extreme weather survival tips (Latent)
-
+The needs identified in Appendix B were brainstormed by all of the team members based on the basis of the project as well as external benchmarking research with alternative products on the market. We also used artificial intelligence to generate a mass of concepts, from which we sifted through and built on ones that could be applicable to the project. All ideas were welcome and none were left out, regarless of how ridiculous they could seem.
 
 ## Organize
 
@@ -177,110 +50,7 @@ _Table 11: Categorized and Ranked User Needs_
 
 # Design Ideation
 
-Every team member participated in the generation of ideas, and use of ChatGPT was also used to help combine our ideas into a single design. We found that the most effective brainstorming came when we were just talking in a regular conversation about the class, and what we would think would be cool to build or see built. From that conversation we had a lot of great concepts to build off on. We also found that giving a title to each idea or concept, regardless of how ridiculous, made it more real and seemed more feasible to us. Another topic that helped us with generation was going through our stakeholders' situations and what could possibly help them in relation to environmental sensing and response. After a lengthy discussion, our results are shown below:
-
-## Generate Ideas
-
-1. Climate Sentinel: Mobile Sensory Network
-2. EcoTracker: Atmospheric Analytics
-3. WeatherMesh: Distributed Station System
-4. SkyPulse: Real-Time Weather Monitor
-5. ClimateGuard: Autonomous Weather Station
-6. WeatherSphere: Integrated Climate System
-7. EnviroCast: Smart Meteorological Station
-8. NatureNet: Wireless Weather Sensors
-9. AtmosFlux: Environmental Data Stream
-10. WeatherNest: Portable Climate Hub
-11. EnviroLink: IoT Weather Network
-12. ClimatePath: Weather Data Tracker
-13. SkyStream: Live Atmospheric Data
-14. AirMap: Weather Sensory Array
-15. WindRover: Mobile Anemometer Unit
-16. Thermoscan: Temperature Analysis System
-17. Humiditech: Humidity and Control Station
-18. PressurEyes: Barometric Pressure Monitor
-19. SolarBreeze: Solar Panel Tracker
-20. Windward: Autonomous Wind Measurer
-21. HydroSkim: Water Vapor Analyzer
-22. TerraPulse: Earth Atmospheric Station
-23. WeatherWise: Intelligent Forecast System
-24. EcoScout: Environmental Surveyor
-25. NimbusNet: Cloud Data Collector
-26. ZephyrSync: Wind Speed Integrator
-27. ClimateCrafter: Weather Modification Station
-28. PinnacleWeather: Peak Atmospheric Recorder
-29. VortexVent: Wind Flow Controller
-30. SunChase: Solar Tracking Mechanism
-31. PressurePlot: Barometric Mapping Tool
-32. WeatherWhisper: Subtle Climate Observer
-33. HydroHarbor: Humidity Calibration System
-34. AtmosAware: Pressure and Temperature Station
-35. WindWalk: Mobile Air Current Sensor
-36. SunSync: Photovoltaic Positioning System
-37. ClimateChoreograph: Dynamic Weather System
-38. AirIntel: Intelligent Meteorological Data
-39. TempTrend: Temperature Analytics Engine
-40. HumidHawk: Precision Hygrometer
-41. ClimateChampion: Weather Competition Station
-42. BreezeBrick: Compact Wind Sensor
-43. ThermalTrail: Heat Mapping Device
-44. MoistureMapper: Humidity and Dew Analyzer
-45. CycloneCell: Storm Tracking Device
-46. EcoOracle: Predictive Weather Station
-47. PressurePioneer: Exploration Weather System
-48. StratoStream: High-Altitude Weather Monitor
-49. WeatherWarden: Environmental Guardian
-50. AtmosphereArchitect: Climate Control Station
-51. ClimateConductor: Symphony of Sensors
-52. BreezeBalancer: Wind Calibration System
-53. SunSpotter: Solar Intensity Sensor
-54. TempestTech: Storm Sensory System
-55. AeroCast: Aerial Weather Station
-56. EnviroEngine: Weather Mechanism Designer
-57. HydroWatch: Water Cycle Monitor
-58. ClimateComposer: Weather Harmony System
-59. WeatherWorkshop: DIY Meteorological Lab
-60. Airsmith: Crafting Weather Responses
-61. ClimateCurator: Atmospheric Collection System
-62. WeatherWeave: Climate Pattern Tracker
-63. GaleGauge: Wind Speed Measurement Tool
-64. SolWind: Hybrid Solar-Wind Monitor
-65. AtmosphereAnalyzer: Climate Analysis Station
-66. TempestTracker: Weather Event Recorder
-67. VaporVault: Humidity Storage System
-68. WindWarp: Air Flow Manipulator
-69. ThermoThinker: Smart Temperature Sensor
-70. ClimateChronicle: Weather Logging Station
-71. EcoEnvoy: Environmental Emissary
-72. NimbusNode: Cloud Conditions Monitor
-73. BreezeBeam: Wind Direction Detector
-74. ClimateController: Temperature and Pressure Regulator
-75. SolarSentry: Photovoltaic Efficiency Monitor
-76. AeroAlert: Wind and Pressure Warning System
-77. ThermalNode: Heat Distribution Tracker
-78. ClimateConduit: Data Transmission Station
-79. StratusStream: Climate Streaming Service
-80. WeatherWizard: Atmospheric Magic Station
-81. EnviroPilot: Autonomous Weather Drone
-82. ClimateCatalyst: Meteorological Reactor
-83. WindWhisperer: Gentle Breeze Sensor
-84. SolarSailor: Sun-Powered Weather Station
-85. AtmosphereAgent: Weather Spy Device
-86. ClimateCourier: Data Delivery System
-87. WeatherMelder: Climate Communication Hub
-88. AirArtisan: Crafted Weather Experience
-89. EcoEmissary: Green Weather Station
-90. ClimateCraftsman: Weather Device Maker
-91. SkyShepherd: Weather Flock Manager
-92. WeatherWaltz: Coordinated Climate System
-93. EcoElement: Elemental Weather Station
-94. SolarScribe: Sun Tracking Logger
-95. ClimateConcierge: Personalized Weather Assistant
-96. StratoSphere: Upper Atmosphere Monitor
-97. WeatherCrafter: Custom Climate Creator
-98. ThermosphereThrone: High Temperature Monitor
-99. WindWielder: Wind Force Manipulator
-100. HydroHorizon: Moisture Monitoring Interface
+Every team member participated in the generation of ideas, and use of ChatGPT was also used to help combine our ideas into a single design. We found that the most effective brainstorming came when we were just talking in a regular conversation about the class, and what we would think would be cool to build or see built. From that conversation we had a lot of great concepts to build off on. We also found that giving a title to each idea or concept, regardless of how ridiculous, made it more real and seemed more feasible to us. Another topic that helped us with generation was going through our stakeholders' situations and what could possibly help them in relation to environmental sensing and response. After a lengthy discussion, our results are shown in Appendix C.
 
 See Appendix D for how we sorted the ideas down to three concepts
 
@@ -410,6 +180,31 @@ Below is a UML diagram that proposes a logic flow for the software we plan to im
 
 # Appendix A: Team Organization
 
+The team charter is shown below:
+
+**Team's Purpose**
+
+   To innovate and create a mobile weather station, that integrates advanced serial sensing and actuation to measure environmental conditions and broadcasts the data in real-time over the internet. To contribute to environmental science by providing reliable, and real-time data.
+
+**Team's Values**
+* Respect
+* Ethical behavior
+* Communication
+* Time management
+* Adaptability
+* Empathy
+* Willingness to learn
+* Collaboration
+
+**Team's Expectations**
+* Active participation
+* Consistent attendance
+* Respectful behavior
+* Collaboration at all times
+* Consistent communication
+* Professionalism
+* Problem solving
+
 ## Communication Channels & Procedures
 _Table 2: Team Member Communication Modes_
 
@@ -483,7 +278,111 @@ _Colin Fricke_, Team 311
 _Carrie Greeney_, Team 311
 _Todd Hayes_, Team 311
 
-# Appendix B: VOC Benchmarking
+# Appendix B: User Needs and Product Requirements
+
+## Identified User Needs:
+1. Accurate temperature readings (Explicit)
+2. Reliable humidity measurement (Explicit)
+3. Precise atmospheric pressure data (Explicit)
+4. Accurate wind speed monitoring (Explicit)
+5. Real-time data updates (Explicit)
+6. Easy-to-read display (Explicit)
+7. Durable in various weather conditions (Explicit)
+8. Portable design (Explicit)
+9. Long battery life (Explicit)
+10. Solar power option (Latent)
+11. Wireless data transmission (Explicit)
+12. User-friendly interface (Explicit)
+13. Data logging capabilities (Explicit)
+14. Alarm system for extreme conditions (Latent)
+15. Affordable cost (Explicit)
+16. Low maintenance requirements (Explicit)
+17. Accessibility features for visually impaired (Latent)
+18. Voice-controlled operation (Latent)
+19. Multilingual support (Latent)
+20. Customizable alerts (Latent)
+21. Historical weather data access (Latent)
+22. Integration with smart home devices (Latent)
+23. Educational features for students (Latent)
+24. Compact size for easy storage (Latent)
+25. Lightweight for mobility (Latent)
+26. Resistance to water and dust (Explicit)
+27. Compatibility with various operating systems (Latent)
+28. Data sharing options (Latent)
+29. Graphical data presentation (Latent)
+30. Predictive weather analytics (Latent)
+31. Calibration features (Explicit)
+32. Secure data storage (Explicit)
+33. Cloud connectivity (Latent)
+34. API for developers (Latent)
+35. Environmentally friendly materials (Latent)
+36. Customizable sensor settings (Latent)
+37. Community sharing features (Latent)
+38. Multi-sensor support (Explicit)
+39. Firmware upgradability (Latent)
+40. Robust technical support (Latent)
+41. Automated data reporting (Latent)
+42. Energy-efficient design (Latent)
+43. Impact resistance (Explicit)
+44. Wide operating temperature range (Explicit)
+45. Quick setup process (Explicit)
+46. Detailed user manual (Explicit)
+47. Compliance with safety standards (Explicit)
+48. Warranty and service options (Explicit)
+49. Minimal false alarms (Explicit)
+50. Stylish aesthetic design (Latent)
+51. Customizable display options (Latent)
+52. Integration with educational software (Latent)
+53. Social media sharing capabilities (Latent)
+54. Multi-user access (Latent)
+55. Remote monitoring capabilities (Latent)
+56. Weather trend analysis (Latent)
+57. Eco-friendly operation (Latent)
+58. Silent operation (Latent)
+59. Heat resistance (Explicit)
+60. Freeze resistance (Explicit)
+61. Scalable system for additional sensors (Latent)
+62. Color-coded data presentation (Latent)
+63. Touch screen interface (Latent)
+64. Audio feedback for alerts (Latent)
+65. Vibration alerts (Latent)
+66. Custom alarm thresholds (Latent)
+67. Geolocation features (Latent)
+68. Time-stamped data records (Explicit)
+69. User feedback mechanism (Latent)
+70. Integration with GIS systems (Latent)
+71. Night mode display (Latent)
+72. Adjustable sensor sensitivity (Latent)
+73. Indoor and outdoor functionality (Latent)
+74. Automated system diagnostics (Latent)
+75. Data export in multiple formats (Latent)
+76. Compatibility with renewable energy sources (Latent)
+77. Hands-free operation options (Latent)
+78. Multifunctional use cases (Latent)
+79. Modular design for upgrades (Latent)
+80. IoT connectivity options (Latent)
+81. User community forums (Latent)
+82. Adaptive learning features (Latent)
+83. Customizable data sampling rates (Latent)
+84. Multi-channel data transmission (Latent)
+85. Support for multiple time zones (Latent)
+86. UV index measurement (Latent)
+87. Air quality monitoring (Latent)
+88. Seismic activity monitoring (Latent)
+89. Flood warning capabilities (Latent)
+90. Heat index calculation (Latent)
+91. Wind chill factor calculation (Latent)
+92. Dew point calculation (Latent)
+93. Sunrise and sunset times (Latent)
+94. Moon phase display (Latent)
+95. Tidal information (Latent)
+96. Seasonal weather predictions (Latent)
+97. Agricultural applications (Latent)
+98. Marine weather features (Latent)
+99. Aviation weather data (Latent)
+100. Extreme weather survival tips (Latent)
+
+## VOC Benchmarking:
 
 **Search 1:** "Sainlogic Wireless Weather Station with Outdoor Sensor, 8-in-1 Weather Station with Weather Forecast, Temperature, Air Pressure, Humidity, Wind Gauge, Rain Gauge, Moon Phase, Alarm Clock”
 
@@ -762,6 +661,108 @@ The product’s design will be based on the following requirements:
 
 7.4   All electrical parts will be secured and unreachable in the final project.
 
+## Generate Ideas
+
+1. Climate Sentinel: Mobile Sensory Network
+2. EcoTracker: Atmospheric Analytics
+3. WeatherMesh: Distributed Station System
+4. SkyPulse: Real-Time Weather Monitor
+5. ClimateGuard: Autonomous Weather Station
+6. WeatherSphere: Integrated Climate System
+7. EnviroCast: Smart Meteorological Station
+8. NatureNet: Wireless Weather Sensors
+9. AtmosFlux: Environmental Data Stream
+10. WeatherNest: Portable Climate Hub
+11. EnviroLink: IoT Weather Network
+12. ClimatePath: Weather Data Tracker
+13. SkyStream: Live Atmospheric Data
+14. AirMap: Weather Sensory Array
+15. WindRover: Mobile Anemometer Unit
+16. Thermoscan: Temperature Analysis System
+17. Humiditech: Humidity and Control Station
+18. PressurEyes: Barometric Pressure Monitor
+19. SolarBreeze: Solar Panel Tracker
+20. Windward: Autonomous Wind Measurer
+21. HydroSkim: Water Vapor Analyzer
+22. TerraPulse: Earth Atmospheric Station
+23. WeatherWise: Intelligent Forecast System
+24. EcoScout: Environmental Surveyor
+25. NimbusNet: Cloud Data Collector
+26. ZephyrSync: Wind Speed Integrator
+27. ClimateCrafter: Weather Modification Station
+28. PinnacleWeather: Peak Atmospheric Recorder
+29. VortexVent: Wind Flow Controller
+30. SunChase: Solar Tracking Mechanism
+31. PressurePlot: Barometric Mapping Tool
+32. WeatherWhisper: Subtle Climate Observer
+33. HydroHarbor: Humidity Calibration System
+34. AtmosAware: Pressure and Temperature Station
+35. WindWalk: Mobile Air Current Sensor
+36. SunSync: Photovoltaic Positioning System
+37. ClimateChoreograph: Dynamic Weather System
+38. AirIntel: Intelligent Meteorological Data
+39. TempTrend: Temperature Analytics Engine
+40. HumidHawk: Precision Hygrometer
+41. ClimateChampion: Weather Competition Station
+42. BreezeBrick: Compact Wind Sensor
+43. ThermalTrail: Heat Mapping Device
+44. MoistureMapper: Humidity and Dew Analyzer
+45. CycloneCell: Storm Tracking Device
+46. EcoOracle: Predictive Weather Station
+47. PressurePioneer: Exploration Weather System
+48. StratoStream: High-Altitude Weather Monitor
+49. WeatherWarden: Environmental Guardian
+50. AtmosphereArchitect: Climate Control Station
+51. ClimateConductor: Symphony of Sensors
+52. BreezeBalancer: Wind Calibration System
+53. SunSpotter: Solar Intensity Sensor
+54. TempestTech: Storm Sensory System
+55. AeroCast: Aerial Weather Station
+56. EnviroEngine: Weather Mechanism Designer
+57. HydroWatch: Water Cycle Monitor
+58. ClimateComposer: Weather Harmony System
+59. WeatherWorkshop: DIY Meteorological Lab
+60. Airsmith: Crafting Weather Responses
+61. ClimateCurator: Atmospheric Collection System
+62. WeatherWeave: Climate Pattern Tracker
+63. GaleGauge: Wind Speed Measurement Tool
+64. SolWind: Hybrid Solar-Wind Monitor
+65. AtmosphereAnalyzer: Climate Analysis Station
+66. TempestTracker: Weather Event Recorder
+67. VaporVault: Humidity Storage System
+68. WindWarp: Air Flow Manipulator
+69. ThermoThinker: Smart Temperature Sensor
+70. ClimateChronicle: Weather Logging Station
+71. EcoEnvoy: Environmental Emissary
+72. NimbusNode: Cloud Conditions Monitor
+73. BreezeBeam: Wind Direction Detector
+74. ClimateController: Temperature and Pressure Regulator
+75. SolarSentry: Photovoltaic Efficiency Monitor
+76. AeroAlert: Wind and Pressure Warning System
+77. ThermalNode: Heat Distribution Tracker
+78. ClimateConduit: Data Transmission Station
+79. StratusStream: Climate Streaming Service
+80. WeatherWizard: Atmospheric Magic Station
+81. EnviroPilot: Autonomous Weather Drone
+82. ClimateCatalyst: Meteorological Reactor
+83. WindWhisperer: Gentle Breeze Sensor
+84. SolarSailor: Sun-Powered Weather Station
+85. AtmosphereAgent: Weather Spy Device
+86. ClimateCourier: Data Delivery System
+87. WeatherMelder: Climate Communication Hub
+88. AirArtisan: Crafted Weather Experience
+89. EcoEmissary: Green Weather Station
+90. ClimateCraftsman: Weather Device Maker
+91. SkyShepherd: Weather Flock Manager
+92. WeatherWaltz: Coordinated Climate System
+93. EcoElement: Elemental Weather Station
+94. SolarScribe: Sun Tracking Logger
+95. ClimateConcierge: Personalized Weather Assistant
+96. StratoSphere: Upper Atmosphere Monitor
+97. WeatherCrafter: Custom Climate Creator
+98. ThermosphereThrone: High Temperature Monitor
+99. WindWielder: Wind Force Manipulator
+100. HydroHorizon: Moisture Monitoring Interface
 
 # Appendix D: Sorting Design Ideas
 
