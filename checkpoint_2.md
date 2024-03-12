@@ -26,19 +26,19 @@ The needs identified in Appendix B were brainstormed by all of the team members 
 
 The brainstorming for the user needs happened on a Jamboard, seen below, where we could throw out ideas, and sort them in the form of sticky notes, as well as color coding like ideas. After sorting based on similar categroies, we came up with a common theme for the group, and gave them each a meta statement. From there, we ranked the statements based on how frequent they popped up in the VOC Benchmarking as well as our own personal interpretation of what was most valuable to the project's success.
 
-Figure 6: Jamboard of 100 Needs Statements (Needs are Overlapped)
+Figure 1: Jamboard of 100 Needs Statements (Needs are Overlapped)
 
 ![Figure_6_User_Needs](https://github.com/egr314team311/team311.github.io/assets/157044424/d6d8a1c2-4215-4591-969b-0b8815762ca5)
 
-Figure 7: Notes Grouped into Categories
+Figure 2: Notes Grouped into Categories
 
 ![Figure_7_User_Needs](https://github.com/egr314team311/team311.github.io/assets/157044424/8bb78599-9c58-4f70-88cc-df2078fa0fce)
 
-Figure 8: Ranked Meta Need for Each Category
+Figure 3: Ranked Meta Need for Each Category
 
 ![Figure_8_User_Needs](https://github.com/egr314team311/team311.github.io/assets/157044424/50fa6bf4-f156-45c6-a03e-1b305bd256c9)
 
-_Table 11: Categorized and Ranked User Needs_
+_Table 1: Categorized and Ranked User Needs_
 
 |Category|Meta Statement|Importance|
 |-|-|-|
@@ -52,7 +52,7 @@ _Table 11: Categorized and Ranked User Needs_
 
 Every team member participated in the generation of ideas, and use of ChatGPT was also used to help combine our ideas into a single design. We found that the most effective brainstorming came when we were just talking in a regular conversation about the class, and what we would think would be cool to build or see built. From that conversation we had a lot of great concepts to build off on. We also found that giving a title to each idea or concept, regardless of how ridiculous, made it more real and seemed more feasible to us. Another topic that helped us with generation was going through our stakeholders' situations and what could possibly help them in relation to environmental sensing and response. After a lengthy discussion, our results are shown in Appendix C.
 
-See Appendix D for how we sorted the ideas down to three concepts
+See Appendix D for how we sorted the ideas down to three concepts.
 
 ## Sort, Rank, and Group Design Concepts
 
