@@ -59,7 +59,7 @@ void main(void)
  ## Temperature Sensor Code
 
 
- #include "mcc_generated_files/mcc.h"
+#include "mcc_generated_files/mcc.h"
 #include "mcc_generated_files/i2c2_master.h" // This should be the header file where I2C2_Read1ByteRegister is declared.
 //#include "mcc_generated_files/eusart2.h"
 #include "mcc_generated_files/examples/i2c2_master_example.h"
@@ -82,24 +82,33 @@ void main(void) {
     SYSTEM_Initialize();
     INTERRUPT_GlobalInterruptEnable();
     INTERRUPT_PeripheralInterruptEnable();
+
+    // Make sure RC5 is set as a digital output
     IO_RE0_SetDigitalOutput();
+   
     uint8_t tempData = 0;
     // Main loop
     while (1) {
         // Read temperature data from TC74 sensor
         tempData = I2C2_Read1ByteRegister(TC74_SENSOR_ADDRESS, 0x00);
-        int8_t temperature = ConvertTC74Temp(tempData);  // Print temperature to console
+        int8_t temperature = ConvertTC74Temp(tempData);
+
+        // Print temperature to console
         printf("Temperature: %dC\n", temperature);
+        
 flashLED();
         // Control LED based on temperature
         if (temperature > 27) {
            // IO_RE0_SetLow();
             flashLED(); // Turn LED on and off quickly
+            
         } else {
             IO_RE0_SetHigh();
            IO_RE0_SetLow(); // Ensure LED is off
         }
+
+        // Delay to prevent constant reading/writing
+        __delay_ms(1000);
     }
 }
-
  ## Humidity Sensor Code
