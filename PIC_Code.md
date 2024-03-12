@@ -58,31 +58,29 @@ void main(void)
 
  ## Temperature Sensor Code
 
-
-#include "mcc_generated_files/mcc.h"
-#include "mcc_generated_files/i2c2_master.h" // This should be the header file where I2C2_Read1ByteRegister is declared.
-//#include "mcc_generated_files/eusart2.h"
-#include "mcc_generated_files/examples/i2c2_master_example.h"
-// TC74 I2C address (write operation assumed, adjust if necessary)
-#define TC74_SENSOR_ADDRESS 0x4C
-
-void flashLED() {
-    IO_RE0_SetHigh(); // Turn on the LED
-    __delay_ms(100); // Leave it on for 50 milliseconds
-    IO_RE0_SetLow(); // Turn off the LED
+      #include "mcc_generated_files/mcc.h"
+      #include "mcc_generated_files/i2c2_master.h" 
+       #include "mcc_generated_files/examples/i2c2_master_example.h"
+       #define TC74_SENSOR_ADDRESS 0x4C
+       void flashLED() {
+                 IO_RE0_SetHigh(); // Turn on the LED
+                __delay_ms(100); // Leave it on for 50 milliseconds
+                IO_RE0_SetLow(); // Turn off the LED
 }
 
-int8_t ConvertTC74Temp(uint8_t rawData) {
-    // Convert 8-bit 2's complement to integer
-    return (int8_t)rawData;
+     int8_t ConvertTC74Temp(uint8_t rawData) {
+            // Convert 8-bit 2's complement to integer
+         return (int8_t)rawDat
 }
 
-void main(void) {
+     void main(void) {
+
     // Initialize the system
     SYSTEM_Initialize();
+    
     INTERRUPT_GlobalInterruptEnable();
     INTERRUPT_PeripheralInterruptEnable();
-
+    
     // Make sure RC5 is set as a digital output
     IO_RE0_SetDigitalOutput();
    
@@ -96,7 +94,8 @@ void main(void) {
         // Print temperature to console
         printf("Temperature: %dC\n", temperature);
         
-flashLED();
+        flashLED();
+
         // Control LED based on temperature
         if (temperature > 27) {
            // IO_RE0_SetLow();
