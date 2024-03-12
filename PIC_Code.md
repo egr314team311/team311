@@ -53,7 +53,7 @@ void main(void)
         
          }
     }
-}
+    }
 
 
  ## Temperature Sensor Code
@@ -66,12 +66,12 @@ void main(void)
                  IO_RE0_SetHigh(); // Turn on the LED
                 __delay_ms(100); // Leave it on for 50 milliseconds
                 IO_RE0_SetLow(); // Turn off the LED
-}
+     }
 
      int8_t ConvertTC74Temp(uint8_t rawData) {
             // Convert 8-bit 2's complement to integer
          return (int8_t)rawDat
-}
+      }
 
      void main(void) {
 
@@ -109,5 +109,5 @@ void main(void)
         // Delay to prevent constant reading/writing
         __delay_ms(1000);
     }
-}
+    }
  ## Humidity Sensor Code
