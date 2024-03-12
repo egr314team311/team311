@@ -174,7 +174,7 @@ The back of the board as well:
 
 # Software Proposal
 
-Below is a UML diagram that proposes a logic flow for the software we plan to implant in the PCB. It follows a reader-friendly pseudocode that will implement many feedback responses to let the user know when the product detects either a temperature or humidity level outside of the desired threshold. There are plans in the future to be able to have the threshold be determined by user input, but such a development will have to wait until the team is more well versed in ESP32 functionality.
+Below is a UML diagram that proposes a logic flow for the software we plan to implant in the PCB. It follows a reader-friendly pseudocode that will implement many feedback responses to let the user know when the product detects either a temperature or humidity level outside of the desired threshold. There are plans in the future to be able to have the threshold be determined by user input, but such a development will have to wait until the team is more well versed in ESP32 functionality. Click [here](/PIC_Code.md) to see an overvview of our MPLab code.
 
 <img width="931" alt="image" src="https://github.com/egr314team311/team311.github.io/assets/157049797/25e2b61c-3305-4e0f-9691-129b6b23812d">
 
