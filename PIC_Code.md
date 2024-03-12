@@ -34,7 +34,7 @@ void main(void)
             __delay_ms(1000);
            
             
-            
+          
             __delay_ms(50);
             CSN_SetLow();
             byteValue2 = SPI1_ExchangeByte(byteArray[1]);            
@@ -82,32 +82,23 @@ void main(void) {
     SYSTEM_Initialize();
     INTERRUPT_GlobalInterruptEnable();
     INTERRUPT_PeripheralInterruptEnable();
-
-    // Make sure RC5 is set as a digital output
     IO_RE0_SetDigitalOutput();
-   
     uint8_t tempData = 0;
     // Main loop
     while (1) {
         // Read temperature data from TC74 sensor
         tempData = I2C2_Read1ByteRegister(TC74_SENSOR_ADDRESS, 0x00);
-        int8_t temperature = ConvertTC74Temp(tempData);
-
-        // Print temperature to console
+        int8_t temperature = ConvertTC74Temp(tempData);  // Print temperature to console
         printf("Temperature: %dC\n", temperature);
 flashLED();
         // Control LED based on temperature
         if (temperature > 27) {
            // IO_RE0_SetLow();
             flashLED(); // Turn LED on and off quickly
-            
         } else {
             IO_RE0_SetHigh();
            IO_RE0_SetLow(); // Ensure LED is off
         }
-
-        // Delay to prevent constant reading/writing
-        __delay_ms(1000);
     }
 }
 
