@@ -4,7 +4,7 @@
 # Organization Charter
 ## Team Goals
 
-The team has shared goals that reflect a successful product with regard to EGR314. These goals are as follows:
+The team has shared goals that reflect a successful product with regard to EGR314. The goals are listed below:
 * As a team we want to use this product design experience to further our future careers. 
 * We may improve our standing in the industry and create prospects for progress by iteratively enhancing the product in response to feedback. 
 * We believe that success in this project and product design process means the ability of being able to demonstrate our knowledge to others, make new professional connections, and being able to develop a new addition to our portfolio of engineering expertise.
