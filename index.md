@@ -17,3 +17,5 @@ Spring 2024
 [Checkpoint 1](/checkpoint_1.md)
 
 [Checkpoint 2](/checkpoint_2.md)
+
+[Checkpoint 3](/checkpoint_3.md)
