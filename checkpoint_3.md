@@ -77,7 +77,7 @@ Each sketch was created from a carefully written prompt given to an artificial i
 
 # Selected Design
 
-After some edits to our original sketch, this design below is what we will end up pursuing for the final look of our project. We decided to go for a clean and modern asthetic that still ties in elements of nature. The sheep was a byproduct of the prompt, and should be ignored. Our design also will include a variety of LED fixtures that will highlight the intensity of the sensors readings.
+After some edits to our original sketch, this design below is what we will end up pursuing for the final look of our project. We decided to go for a clean and modern asthetic that still ties in elements of nature. The sheep was a byproduct of the prompt, and should be ignored. Our design also will include a variety of LED fixtures that will highlight the intensity of the sensors readings. GO INTO DETAIL ABOUT WHY WE CHOSE THIS
 
 <img width="750" alt="Screenshot 2024-02-28 at 8 53 44 PM" src="https://github.com/egr314team311/team311.github.io/assets/157049797/d2c83435-305f-4127-9278-2d936b08f5f2">
 
@@ -89,7 +89,7 @@ Below is our updated block diagram. As one can see, we do not have anything on o
 
 # Component Selection
 
-In researching for our product, we charted our possible components, comparing the pros and cons of multiple options before deciding on a winner. Only the major components were detailed, as the minor parts can be gathered from class or the lab directly.
+In researching for our product, we charted our possible components, comparing the pros and cons of multiple options before deciding on a winner. Only the major components were detailed, as the minor parts can be gathered from class or the lab directly. MAKE SURE EACH ONE HAS AT LEAST 3 PROS AND CONS
 
 
 **Power Supply**
@@ -174,7 +174,7 @@ The back of the board as well:
 
 # Software Proposal
 
-Below is a UML diagram that proposes a logic flow for the software we plan to implant in the PCB. It follows a reader-friendly pseudocode that will implement many feedback responses to let the user know when the product detects either a temperature or humidity level outside of the desired threshold. There are plans in the future to be able to have the threshold be determined by user input, but such a development will have to wait until the team is more well versed in ESP32 functionality. Click [here](/PIC_Code.md) to see an overvview of our MPLab code.
+Below is a UML diagram that proposes a logic flow for the software we plan to implant in the PCB. It follows a reader-friendly pseudocode that will implement many feedback responses to let the user know when the product detects either a temperature or humidity level outside of the desired threshold. There are plans in the future to be able to have the threshold be determined by user input, but such a development will have to wait until the team is more well versed in ESP32 functionality. Click [here](/PIC_Code.md) to see an overview of our MPLab code.
 
 <img width="931" alt="image" src="https://github.com/egr314team311/team311.github.io/assets/157049797/25e2b61c-3305-4e0f-9691-129b6b23812d">
 
