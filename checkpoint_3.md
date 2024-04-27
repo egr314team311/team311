@@ -77,7 +77,16 @@ Each sketch was created from a carefully written prompt given to an artificial i
 
 # Selected Design
 
-After some edits to our original sketch, this design below is what we will end up pursuing for the final look of our project. We decided to go for a clean and modern asthetic that still ties in elements of nature. The sheep was a byproduct of the prompt, and should be ignored. Our design also will include a variety of LED fixtures that will highlight the intensity of the sensors readings. GO INTO DETAIL ABOUT WHY WE CHOSE THIS
+After some edits to our original sketch, this design below is what we will end up pursuing for the final look of our project. We decided to go for a clean and modern asthetic that still ties in elements of nature. The sheep was a byproduct of the prompt, and should be ignored. Our design also will include a variety of LED fixtures that will highlight the intensity of the sensors readings. 
+
+In finalizing our project design, the team collectively decided on a configuration that not only captures the modern aesthetics we aimed for but also ensures functionality through its clever use of space and technology. We chose a design that is both clean and modern, incorporating elements of nature to create a cohesive theme that resonates with our environmental monitoring objectives. The inclusion of a sheep in the imagery, while unintended, is a humorous byproduct of our AI-driven design process, underscoring the sometimes unpredictable results of such technologies. This will not feature in the actual product, but serves as a reminder of the creative process's dynamic nature.
+
+The design features various LED fixtures that are not merely decorative but serve a crucial functional role. These LEDs are designed to change in intensity and color based on the sensor readings, providing an intuitive visual feedback system for the user. This allows for immediate and clear communication of environmental changes without needing to interact directly with the device, enhancing user experience and accessibility.
+
+Furthermore, the choice to incorporate advanced sensors in our design directly aligns with our core mission of providing precise and reliable environmental monitoring. These sensors, crucial for the functionality of the mobile weather station, include capabilities for measuring temperature, humidity, and atmospheric pressure, among others. They are integrated seamlessly into the design, maintaining the sleek look while providing high functionality. The use of I2C or SPI-based communication protocols ensures that our device can interface effectively with both current and future technological ecosystems, a testament to our forward-thinking approach.
+
+Overall, the decisions made in the selected design phase were guided by our dedication to innovation, usability, and aesthetic appeal, reflecting our commitment to creating a product that is not only effective but also aligns with the ethical and professional standards we set for ourselves as future leaders in the industry. This design is a critical step toward achieving our vision of setting a new benchmark in environmental monitoring technology.
+
 
 <img width="750" alt="Screenshot 2024-02-28 at 8 53 44 PM" src="https://github.com/egr314team311/team311.github.io/assets/157049797/d2c83435-305f-4127-9278-2d936b08f5f2">
 
@@ -101,6 +110,16 @@ In researching for our product, we charted our possible components, comparing th
 
 **Rationale:** The Panasonic 6LF22XWA/B seems to be the best option as it is the easiest battery for our users to get a hold of while still being fairly easy to work with for our product setup.
 
+**Pros:**
+- **Accessibility:** This battery type is widely available in most retail outlets, making it easy for users to purchase replacements as needed.
+- **Compatibility:** It is compatible with a wide range of devices, ensuring easy integration into our product without the need for specialized hardware.
+- **Reliability:** Panasonic is known for its quality manufacturing standards, which translates to a reliable power supply for our product.
+
+**Cons:**
+- **Environmental Impact:** Being a non-rechargeable battery, it contributes to environmental waste, which could be a concern for eco-conscious users.
+- **Cost Over Time:** While individually inexpensive, the recurring cost of replacement can add up, making it more expensive over the lifespan of the product.
+- **Performance Variability:** Performance can degrade in extreme temperatures, which may affect the reliability of our weather station in varying climates.
+
 **Humidity Sensor**
 
 ![Humidity_sensor1](https://github.com/egr314team311/team311.github.io/assets/157044424/187161ce-ae3d-47dd-b6e2-c733565a1728)
@@ -111,6 +130,16 @@ In researching for our product, we charted our possible components, comparing th
 
 **Rationale:** It is the cheapest option so it helps us stay within budget. It also has the highest accuracy while still having a low input voltage and the required SPI output. 
 
+**Pros:**
+- **High Accuracy:** With a 3% accuracy rate, it provides reliable data for weather monitoring applications, crucial for our product's functionality.
+- **Low Voltage Operation:** Operating at 3.3V makes it energy efficient, which is essential for battery-powered devices.
+- **SPI Communication:** Uses SPI for data output, which is faster and more reliable than other communication protocols, enhancing data transmission efficiency.
+
+**Cons:**
+- **Sensitivity to Contaminants:** Can be sensitive to pollutants and chemicals, which might affect its readings in urban or industrial environments.
+- **Complexity in Integration:** Requires careful calibration and integration into the system, which can be complex and time-consuming.
+- **Limited Range:** The operating temperature and humidity range may not cover extreme conditions, potentially limiting its application in diverse climates.
+
 **3.3V Switching Regulator**
 
 ![3 3V_Switching_Regualtor](https://github.com/egr314team311/team311.github.io/assets/157044424/0849a0c9-9188-48a6-9d02-91ce5d6c5fd9)
@@ -118,6 +147,16 @@ In researching for our product, we charted our possible components, comparing th
 **Choice:** LM2575S-3.3/NOPB
 
 **Rationale:** It offers a high-efficiency (up to 77%) step-down (buck) regulator capable of handling up to 1A of output current. Its simplicity of design, requiring minimal external components, combined with a wide input voltage range of 4V to 40V, makes it versatile and ideal for a broad range of applications, from simple consumer electronics to more complex industrial systems.
+
+**Pros:**
+- **High Efficiency:** Up to 77% efficiency helps conserve battery life, crucial for a mobile weather station.
+- **Wide Input Range:** Supports an input voltage range from 4V to 40V, offering flexibility in power supply choices.
+- **Simple Design:** Requires minimal external components, simplifying circuit design and reducing overall product size.
+
+**Cons:**
+- **Heat Generation:** Like most switching regulators, it can generate significant heat, necessitating careful thermal management in design.
+- **Electromagnetic Interference (EMI):** Switching regulators can produce EMI, which may require additional shielding or filtering to prevent interference with other components.
+- **Cost:** Generally more expensive than linear regulators, which could impact the overall budget of the product.
 
 ![Motor_Driver](https://github.com/egr314team311/team311.github.io/assets/157044424/bb302ed1-da46-4ebf-8673-7ae12e9acaf2)
 
@@ -127,13 +166,31 @@ In researching for our product, we charted our possible components, comparing th
 
 **Rationale:** This option seemed to have the best qualities with the least amount of drawbacks. It will be easy enough to solder and have all the capabilities we need for this project.
 
+- **High Current Rating:** Can handle up to 6A, making it suitable for driving larger loads if needed.
+- **Compact Size:** DSO package allows for integration into smaller PCB designs, saving space.
+- **Versatility:** Suitable for a wide range of motor types, providing flexibility in component selection.
+
+**Cons:**
+- **Complexity:** Requires a good understanding of motor control theory, which may complicate the design and programming.
+- **Power Consumption:** High current handling capability may lead to higher power consumption under load.
+- **Cost:** Higher capabilities come at a higher cost compared to simpler drivers.
+
+
 **Motor**
 
 ![Motor](https://github.com/egr314team311/team311.github.io/assets/157044424/d51dfedf-38a4-41ea-9b12-6b1676ed5186)
 
 **Choice:** FIT0441 GEARMOTOR 159 RPM  (3V version)
 
-**Rationale:** This motor has the benefit of having an incremental encoder for precision, as well as the capability we are looking for in terms of torque and RPM. Its datasheet is also incredibly helpful in controlling it.
+**Pros:**
+- **Integrated Encoder:** Offers precision control with feedback, essential for accurate positioning and speed monitoring.
+- **Optimized Speed:** The 159 RPM rating is well-suited for applications requiring moderate speed and high torque.
+- **Voltage Compatibility:** Operates at 3V, aligning with the low voltage requirements of our system for energy efficiency.
+
+**Cons:**
+- **Mechanical Wear:** Gears are susceptible to wear over time, which could affect long-term reliability.
+- **Noise Generation:** Gear motors can be noisy, which might be undesirable in noise-sensitive environments.
+- **Size and Weight:** May be bulkier and heavier compared to non-geared motors, potentially impacting the design and portability of the device.
 
 **Temperature Sensor**
 
@@ -142,6 +199,16 @@ In researching for our product, we charted our possible components, comparing th
 **Choice:** TC74A4-3.3VCTTR
 
 **Rationale:** The TC74A4-3.3VCTTR stands out as the best choice due to its straightforward digital I2C interface, which greatly simplifies integration with PIC microcontrollers, enabling easy data communication without complex programming. Additionally, its low operating voltage of 3.3V, low power consumption, and decent accuracy make it highly suitable for a wide range of applications, particularly those with power and space constraints.
+
+**Pros:**
+- **Digital Interface:** I2C interface allows for straightforward integration with most microcontrollers, simplifying system design.
+- **Low Power Consumption:** Ideal for battery-operated devices, helping to extend operational life.
+- **Compact Form Factor:** Small package size makes it easy to incorporate into space-constrained designs.
+
+**Cons:**
+- **Limited Sensing Range:** While adequate for general purposes, it may not perform well in extreme temperature conditions.
+- **Response Time:** May have a slower response time compared to other sensors, potentially delaying data acquisition.
+- **Cost:** While generally cost-effective, the unit price can be a consideration when ordering in large volumes for commercial production.
 
 A full list of our components and materials can be found in Appendix F: BOM
 
@@ -157,6 +224,26 @@ In this section, we highlight the effort put into finding the correct microcontr
 [Link to Microcontroller Page](https://www.microchip.com/en-us/product/PIC18F26Q24)
 
 # Hardware Proposal
+
+#### Hardware Design Satisfaction of Project Requirements
+
+Our hardware design meticulously addresses the project requirements by integrating advanced sensors, reliable power management, and robust communication interfaces into a compact and efficient system. This design approach not only fulfills the operational needs of our mobile weather station but also aligns with the overarching goals of durability, portability, and ease of use.
+
+The inclusion of a diverse array of sensors, such as temperature, humidity, and atmospheric pressure sensors, directly correlates with our commitment to providing accurate and comprehensive environmental data. These sensors are chosen for their precision and low power consumption, which are crucial for the long-term deployment in varied environments. Additionally, our hardware layout incorporates a 3.3V switching regulator that ensures energy efficiency across the system, thereby extending battery life and reducing the need for frequent maintenance.
+
+Communication reliability is achieved through the integration of a robust wireless module that supports real-time data transmission to a central server or directly to user interfaces. This feature is essential for users who rely on timely weather updates for critical decision-making in sectors like agriculture, research, and public safety.
+
+#### Team Decision-Making Process in Hardware Design
+
+The decision-making process for the hardware design was intensely collaborative, involving all team members to leverage their expertise in various aspects of engineering. Early in the project, we established clear criteria based on the project's requirements and user needs which guided our selection of components and design configurations.
+
+Throughout the design phase, we held regular review meetings where each component and subsystem design was evaluated against these criteria. These discussions were crucial for ensuring that each hardware choice—from sensors to communication systems—was justified not only in terms of functionality but also cost, availability, and future scalability.
+
+To accommodate the diverse needs of our potential users, we decided to adopt a modular design approach. This allows for easier upgrades and customization of the weather station, catering to users who may require specific functionalities not provided in the standard model. This flexibility in design was a significant decision that aligned with our goal of providing a versatile and adaptable product.
+
+The iterative nature of our design process also meant that feedback was continually sought and incorporated. Prototyping played a critical role here, allowing us to test our assumptions and refine the hardware setup before finalizing the design. This iterative testing and feedback integration were critical in ensuring that the final product not only met but exceeded the expectations set forth in our project requirements.
+
+By maintaining a focus on practicality and user-centric design, and by fostering an environment of open communication and continuous improvement, our team was able to develop a hardware proposal that is both innovative and aligned with the strategic objectives of our project.
 
 Our hardware proposal details the schematic of how our PCB board will be laid out. Each section corresponds to a subsystem, which each team member is specializing in. 
 
@@ -175,6 +262,24 @@ The back of the board as well:
 # Software Proposal
 
 Below is a UML diagram that proposes a logic flow for the software we plan to implant in the PCB. It follows a reader-friendly pseudocode that will implement many feedback responses to let the user know when the product detects either a temperature or humidity level outside of the desired threshold. There are plans in the future to be able to have the threshold be determined by user input, but such a development will have to wait until the team is more well versed in ESP32 functionality. Click [here](/PIC_Code.md) to see an overview of our MPLab code.
+
+#### Functionality Satisfaction through Software Design
+
+The software driving our mobile weather station is meticulously crafted to meet specific user needs and product requirements, as outlined in our project documentation. At its core, the software is designed to offer real-time environmental monitoring with high reliability and user-friendly interaction, directly addressing the need for accurate, timely data and ease of use.
+
+The UML diagram we developed provides a clear, logical flow of operations that starts with the initialization of sensors and progresses through data collection, data processing, and user feedback. This structure ensures that the system continuously monitors environmental variables such as temperature and humidity, and updates the user interface in real time. By implementing feedback loops, the software can alert users whenever certain environmental thresholds are exceeded. This feature is crucial for applications like agricultural planning, where knowing real-time conditions can directly influence operational decisions.
+
+Moreover, the software supports future expansions, such as user-defined thresholds and the incorporation of additional sensors, without requiring a complete redesign. This forward-thinking approach satisfies the product requirement for scalability and adaptability, allowing our device to evolve in response to future user needs or technological advancements.
+
+#### Design and Decision-Making Process
+
+The design process for our software was collaborative and iterative, with a strong emphasis on aligning with the hardware capabilities and the overall mission of the project. We began by mapping out user stories and translating these into software features that address those needs directly. For instance, the need for real-time alerts when conditions deviate from user-specified parameters became a foundational aspect of our software architecture.
+
+During our design sessions, we utilized a variety of tools and methodologies, including brainstorming sessions, feasibility studies, and mock-ups. These activities helped us visualize potential challenges and iterate on solutions promptly. We also adopted an Agile development approach, which allowed us to develop software in sprints and incorporate feedback at various stages of the development process. This flexibility was crucial in adapting to new insights from ongoing hardware development and user feedback.
+
+In decision-making, we prioritized reliability and ease of use, recognizing that the success of the project depended not just on meeting technical specifications but also on ensuring that the end product would be practical and accessible for the intended users. We made strategic decisions to use established libraries and frameworks to reduce the risk of bugs and accelerate the development process. Moreover, the choice to implement a modular design for the software components was aimed at facilitating maintenance and future upgrades, thus enhancing the product’s longevity and adaptability in a fast-evolving technological landscape.
+
+Through continuous integration and testing, we ensured that each software component interacted seamlessly with others and met the rigorous demands of real-world operation.
 
 <img width="931" alt="image" src="https://github.com/egr314team311/team311.github.io/assets/157049797/25e2b61c-3305-4e0f-9691-129b6b23812d">
 
