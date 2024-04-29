@@ -281,9 +281,12 @@ In decision-making, we prioritized reliability and ease of use, recognizing that
 
 Through continuous integration and testing, we ensured that each software component interacted seamlessly with others and met the rigorous demands of real-world operation.
 
-<img width="931" alt="image" src="https://github.com/egr314team311/team311.github.io/assets/157049797/25e2b61c-3305-4e0f-9691-129b6b23812d">
+![image](https://github.com/egr314team311/team311.github.io/assets/157049797/03f0cab3-4a33-4670-995d-978802f8fec0)
+
 
 # System Verification
+
+![image](https://github.com/egr314team311/team311.github.io/assets/157049797/cdfeaae3-55e8-4b71-947b-1ea010ce217a)
 
 As part of our rigorous engineering process, we conducted a comprehensive system verification to ensure that all hardware connections were correctly implemented and that each individual subsystem operated as expected. This verification process was critical in guaranteeing the functionality and reliability of our mobile weather station before proceeding to the integration testing phase.
 
