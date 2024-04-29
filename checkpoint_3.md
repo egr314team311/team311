@@ -94,7 +94,8 @@ Overall, the decisions made in the selected design phase were guided by our dedi
 
 Below is our updated block diagram. As one can see, we do not have anything on our 9V power rail. This is due to all of our components being able to be run at 3.3V or lower. Our battery has sufficient current to provide amperage to everything, as can be seen in Appendix E: Power Budget. Only the major components are shown here.
 
-<img width="481" alt="image" src="https://github.com/egr314team311/team311.github.io/assets/157049797/ea46f389-c87b-4d69-bf94-aea8800b999e">
+![image](https://github.com/egr314team311/team311.github.io/assets/157049797/981b826f-2ee6-4f0a-b797-522f94d9dc11)
+
 
 # Component Selection
 
