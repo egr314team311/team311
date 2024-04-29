@@ -167,6 +167,7 @@ In researching for our product, we charted our possible components, comparing th
 
 **Rationale:** This option seemed to have the best qualities with the least amount of drawbacks. It will be easy enough to solder and have all the capabilities we need for this project.
 
+**Pros:**
 - **High Current Rating:** Can handle up to 6A, making it suitable for driving larger loads if needed.
 - **Compact Size:** DSO package allows for integration into smaller PCB designs, saving space.
 - **Versatility:** Suitable for a wide range of motor types, providing flexibility in component selection.
