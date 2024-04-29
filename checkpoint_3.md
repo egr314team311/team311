@@ -43,8 +43,9 @@ _Table 1: Categorized and Ranked User Needs_
 |Category|Meta Statement|Importance|
 |-|-|-|
 |Design|The product needs to have a quality design to make sure it functions properly.|***|
+|Function|The product must be functioning as intended with the utmost efficiency.|***|
 |Quality|All materials should be high quality, as well as the final design.|**|
-|Ease-of-use|The product needs to be easy for children to figure out and use.|**|
+|Ease-of-use|The product needs to be easy for all ages to figure out and use.|**|
 |Safety|The product needs to safely interact with all users.|*|
 
 
@@ -90,14 +91,14 @@ Overall, the decisions made in the selected design phase were guided by our dedi
 
 <img width="750" alt="Screenshot 2024-02-28 at 8 53 44 PM" src="https://github.com/egr314team311/team311.github.io/assets/157049797/d2c83435-305f-4127-9278-2d936b08f5f2">
 
-# Block Diagram
+# Final Block Diagram
 
 Below is our updated block diagram. As one can see, we do not have anything on our 9V power rail. This is due to all of our components being able to be run at 3.3V or lower. Our battery has sufficient current to provide amperage to everything, as can be seen in Appendix E: Power Budget. Only the major components are shown here.
 
 ![image](https://github.com/egr314team311/team311.github.io/assets/157049797/981b826f-2ee6-4f0a-b797-522f94d9dc11)
 
 
-# Component Selection
+# Final Component Selection
 
 In researching for our product, we charted our possible components, comparing the pros and cons of multiple options before deciding on a winner. Only the major components were detailed, as the minor parts can be gathered from class or the lab directly. MAKE SURE EACH ONE HAS AT LEAST 3 PROS AND CONS
 
@@ -234,7 +235,7 @@ The choice we settled on was the PIC18F26Q24, which enabled us to have enough SP
 
 [Link to Microcontroller Page](https://www.microchip.com/en-us/product/PIC18F26Q24)
 
-# Hardware Proposal
+# Final Hardware Proposal
 
 #### Hardware Design Satisfaction of Project Requirements
 
@@ -270,7 +271,7 @@ The back of the board as well:
 
 
 
-# Software Proposal
+# Final Software Proposal
 
 Below is a UML diagram that proposes a logic flow for the software we plan to implant in the PCB. It follows a reader-friendly pseudocode that will implement many feedback responses to let the user know when the product detects either a temperature or humidity level outside of the desired threshold. There are plans in the future to be able to have the threshold be determined by user input, but such a development will have to wait until the team is more well versed in ESP32 functionality. Click [here](/PIC_Code.md) to see an overview of our MPLab code.
 
