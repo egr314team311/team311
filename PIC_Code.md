@@ -1,113 +1,108 @@
  ## Microcontroller Code
 
- ## Motor Code
-
-
 #include "mcc_generated_files/mcc.h"
 
-uint8_t byteArray[] = {0b11101110, 0b11101001, 0b11101100};
-uint8_t byteValue;
-uint8_t byteValue2;
-uint8_t byteValue3;
+#include "mcc_generated_files/pin_manager.h"
+#include "mcc_generated_files/i2c2_master.h"
+#include "mcc_generated_files/interrupt_manager.h"
+#include "mcc_generated_files/pin_manager.h"
+#include "mcc_generated_files/examples/i2c2_master_example.h"
+#include "mcc_generated_files/device_config.h"
+#include "stdio.h"
+#include "string.h"
+#include <stdint.h>
+#include <xc.h>
+#include <pic18.h>
+
+#define Temperature_Address 0x4C
+#define Humidity_Address 0x27
+
+int i=0;
+
+void print_data(void)
+{
+        i++;
+}
 
 void main(void)
 {
     // Initialize the device
     SYSTEM_Initialize();
-    SPI1_Initialize();
-    EUSART2_Initialize();
+    
+    TMR0_SetInterruptHandler(print_data);
+    
+    // Enable the Global Interrupts
+    INTERRUPT_GlobalInterruptEnable();
+
+    TMR0_StartTimer(); // start timer
     
     SPI1_Open(SPI1_DEFAULT);
+    
+    LED3_SetHigh(); 
+    
+    uint8_t byteArray[] = {0b11101111, 0b11101000, 0b11101101};
+    uint8_t temp = 0;
+    uint8_t humidity = 0;
 
     while (1)
-    {
-        if(EUSART2_is_tx_ready())
+    {        
+        
+        humidity = HDC1000_GetHumidity();
+        __delay_ms(100);
+        temp = I2C2_Read1ByteRegister(Temperature_Address,0x00);
+        __delay_ms(100);
+        
+        if (temp >= 29)
         {
-            printf("\n");
-            
-            __delay_ms(50);
+            __delay_ms(50); //CW
             CSN_SetLow();
-            byteValue = SPI1_ExchangeByte(byteArray[0]);            
+            SPI1_ExchangeByte(byteArray[2]);            
             CSN_SetHigh();
             __delay_ms(50);
-            printf("1 Byte Value = %u Direction = %u \r \n", byteValue, CSN_GetValue());
-            __delay_ms(1000);
-           
-            
-          
-            __delay_ms(50);
-            CSN_SetLow();
-            byteValue2 = SPI1_ExchangeByte(byteArray[1]);            
-            CSN_SetHigh();
-            __delay_ms(50);
-            printf("2 Byte Value = %u Direction = %u \r \n", byteValue2, CSN_GetValue());
-            __delay_ms(1000);
-
-            __delay_ms(50);
-            CSN_SetLow();
-            byteValue3 = SPI1_ExchangeByte(byteArray[2]);            
-            CSN_SetHigh();
-            __delay_ms(50);
-            printf("3 Byte Value = %u Direction = %u \r \n", byteValue3, CSN_GetValue());
-            __delay_ms(1000);
-        
-         }
-    }
-    }
-
-
- ## Temperature Sensor Code
-
-      #include "mcc_generated_files/mcc.h"
-      #include "mcc_generated_files/i2c2_master.h" 
-       #include "mcc_generated_files/examples/i2c2_master_example.h"
-       #define TC74_SENSOR_ADDRESS 0x4C
-       void flashLED() {
-                 IO_RE0_SetHigh(); // Turn on the LED
-                __delay_ms(100); // Leave it on for 50 milliseconds
-                IO_RE0_SetLow(); // Turn off the LED
-     }
-
-     int8_t ConvertTC74Temp(uint8_t rawData) {
-            // Convert 8-bit 2's complement to integer
-         return (int8_t)rawDat
-      }
-
-     void main(void) {
-
-    // Initialize the system
-    SYSTEM_Initialize();
-    
-    INTERRUPT_GlobalInterruptEnable();
-    INTERRUPT_PeripheralInterruptEnable();
-    
-    // Make sure RC5 is set as a digital output
-    IO_RE0_SetDigitalOutput();
-   
-    uint8_t tempData = 0;
-    // Main loop
-    while (1) {
-        // Read temperature data from TC74 sensor
-        tempData = I2C2_Read1ByteRegister(TC74_SENSOR_ADDRESS, 0x00);
-        int8_t temperature = ConvertTC74Temp(tempData);
-
-        // Print temperature to console
-        printf("Temperature: %dC\n", temperature);
-        
-        flashLED();
-
-        // Control LED based on temperature
-        if (temperature > 27) {
-           // IO_RE0_SetLow();
-            flashLED(); // Turn LED on and off quickly
-            
-        } else {
-            IO_RE0_SetHigh();
-           IO_RE0_SetLow(); // Ensure LED is off
+            //printf("Motor Condition: Clockwise \r\n");
         }
-
-        // Delay to prevent constant reading/writing
-        __delay_ms(1000);
+        else if (temp <=27)
+        {
+            __delay_ms(50); //CCW
+            CSN_SetLow();
+            SPI1_ExchangeByte(byteArray[0]);            
+            CSN_SetHigh();
+            __delay_ms(50);
+            //printf("Motor Condition: Counterclockwise \r\n");
+        }
+        else
+        {
+            __delay_ms(50); //OFF
+            CSN_SetLow();
+            SPI1_ExchangeByte(byteArray[1]);            
+            CSN_SetHigh();
+            __delay_ms(50);
+            //printf("Motor Condition: Off \r\n");
+        }
+        
+        if(humidity <= 40)
+        {
+            DRYLED_Toggle();
+            __delay_ms(50);
+        }
+        else if(humidity >= 60)
+        {
+            WETLED_Toggle();
+            __delay_ms(50);
+        }
+        else
+        {
+            WETLED_SetLow();
+            DRYLED_SetLow();
+            __delay_ms(50);
+        }
+        
+        if (i>5)
+        {
+            printf("Temperature Sensor: %d degrees Celsius \n Humidity Sensor: %d%%\n\r", temp, humidity);
+            __delay_ms(100);
+            
+            i=0;
+        }
     }
-    }
- ## Humidity Sensor Code
+}
