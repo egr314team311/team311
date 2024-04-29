@@ -222,7 +222,7 @@ In this section, we highlight the effort put into finding the correct microcontr
 ![Microcontroller_3](https://github.com/egr314team311/team311.github.io/assets/157044424/e6433a2b-ae50-4411-b3cf-2c322487e5ba)
 ![Microcontroller_4](https://github.com/egr314team311/team311.github.io/assets/157044424/8dbad3a6-519b-46d1-9077-921686a764fd)
 
-The choice we settled on was the PIC18F26Q24, which enabled us to have enough SPI and I2C pins to fully implement all the requirements for the project. This option was initially thought to be perfect, until the microcontroller got delivered and we found out it only ran on MCC Melody, a version of the software that we were not familiar with. This was a challange that we put our best effort on facing, but we ended up not being able to implement all of our subsystems into the unfamiliar UI. In the end, we decided to pivot to a new microcontroller, the PIC18F26K22T, The parametrics and product features of the new device are pictured below.
+The choice we settled on was the PIC18F26Q24, which enabled us to have enough SPI and I2C pins to fully implement all the requirements for the project. This option was initially thought to be perfect, until the microcontroller got delivered and we found out it only ran on MCC Melody, a version of the software that we were not familiar with. This was a challange that we put our best effort on facing, but we ended up not being able to implement all of our subsystems into the unfamiliar UI. In the end, we decided to pivot to a new microcontroller, the PIC18F26K22T, The parametrics and product features of the new device are pictured below. This new PIC met all the requirements of the project, while also using MCC Classic, so we could program in familiar territory. This change ended up saving the project from needless difficulty, which let us focus on other things, like the hardware proposal.
 
 ![image](https://github.com/egr314team311/team311.github.io/assets/157049797/4aca14fb-0350-4e77-a855-cc6acee9ad71)
 
@@ -231,7 +231,7 @@ The choice we settled on was the PIC18F26Q24, which enabled us to have enough SP
 ![image](https://github.com/egr314team311/team311.github.io/assets/157049797/a8e35a15-40ec-4d54-9501-db4988f173f9)
 
 
-[Link to Microcontroller Page]([https://www.microchip.com/en-us/product/PIC18F26Q24](https://www.microchip.com/en-us/product/pic18f26k22))
+[Link to Microcontroller Page](https://www.microchip.com/en-us/product/PIC18F26Q24)
 
 # Hardware Proposal
 
