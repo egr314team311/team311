@@ -259,7 +259,8 @@ By maintaining a focus on practicality and user-centric design, and by fostering
 
 Our hardware proposal details the schematic of how our PCB board will be laid out. Each section corresponds to a subsystem, which each team member is specializing in. 
 
-<img width="1202" alt="image" src="https://github.com/egr314team311/team311.github.io/assets/157049797/d44292a7-3306-4ab7-8dc4-d1cb8087e783">
+![image](https://github.com/egr314team311/team311.github.io/assets/122222419/a4fea0fc-4ea5-4bb2-a221-fcd408345efc)
+
 
 As well, here is a prototype of the layout of our team PCB. This is subject to change according to specific needs.
 
