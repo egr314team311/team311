@@ -263,11 +263,13 @@ Our hardware proposal details the schematic of how our PCB board will be laid ou
 
 As well, here is a prototype of the layout of our team PCB. This is subject to change according to specific needs.
 
-<img width="644" alt="image" src="https://github.com/egr314team311/team311.github.io/assets/157049797/ef427433-c79c-43ed-ab41-687630a88754">
+![image](https://github.com/egr314team311/team311.github.io/assets/122222419/a9439f33-ffe5-4197-bc68-34ceb534a3a6)
+
 
 The back of the board as well:
 
-<img width="644" alt="image" src="https://github.com/egr314team311/team311.github.io/assets/157049797/1c928423-f390-4038-99da-b3dfd9ade3f2">
+![image](https://github.com/egr314team311/team311.github.io/assets/122222419/61f04097-3d15-4a25-acfb-98bcc1f8246b)
+
 
 
 
