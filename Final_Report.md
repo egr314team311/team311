@@ -21,6 +21,7 @@
      - C: Product Requirements
      - D: Sorting Design Ideas
      - E: Power Budget
+     - F: BOM
 
 # Organization Charter
 ## Team Goals
