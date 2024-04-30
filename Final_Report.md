@@ -1,5 +1,5 @@
 
-# Report
+# EGR 314 Final Report: The Weather Wizard
 
 # Table of Contents
 
