@@ -3,6 +3,8 @@
 
 # Table of Contents
 
+* Table of Contents
+* Table of Figures
 * Organization Charter
 * User Needs, Benchmarking Product Requirements
 * Design Ideation
@@ -22,6 +24,33 @@
      - D: Sorting Design Ideas
      - E: Power Budget
      - F: BOM
+
+# Table of Figures
+
+* 1: Jamboard of 100 Needs Statements (Needs are Overlapped)
+* 2: Notes Grouped into Categories
+* 3: Ranked Meta Need for Each Category
+* 4: Sorted Design Concepts
+* 5: WeatherWizard: Atmospheric Magic Station
+* 6: ClimateCourier: Data Delivery System
+* 7: WeatherBackPack: Sensor Built Backpack
+* 8: Final Design Concept
+* 9: Fully Updated Block Diagram
+* 10: Power Supply Selection
+* 11: Humidity Sensor Selection
+* 12: Motor Driver Selection
+* 13: Motor Selection
+* 14: Temperature Sensor Selection
+* 15: Initial Microcontroller Selection
+* 16: Final Microcontroller Specifications
+* 17: Final Hardware Schematic
+* 18: Front of PCB
+* 19: Back of PCB
+* 20: Final Software UML Diagram
+* 21: System Verification Table
+* 22-26: VOC Benchmarking
+* 27: Final Power Budget
+* 28: Final Bill of Materials
 
 # Organization Charter
 ## Team Goals
@@ -79,6 +108,8 @@ See Appendix D for how we sorted the ideas down to three concepts.
 
 ## Sort, Rank, and Group Design Concepts
 
+Figure 4: Sorted Design Concepts
+
 ![Figure_1_Design_Ideation](https://github.com/egr314team311/team311.github.io/assets/157044424/5945183f-4cde-438c-866e-d5f9b8069128)
 
 
@@ -86,15 +117,15 @@ See Appendix D for how we sorted the ideas down to three concepts.
 
 Each sketch was created from a carefully written prompt given to an artificial intelligence image generator. We were pleased with the results, however the image is not as accurate as we would've hoped. Aftera lot of deliberation, the final results are shown below. The artificial intelligence was not good at printing words into the images, so we've decided to ignore them in our description and presentation of the images.
 
-1. WeatherWizard: Atmospheric Magic Station
+Figure 5: WeatherWizard: Atmospheric Magic Station
 
 ![Figure_2_Design_Ideation](https://github.com/egr314team311/team311.github.io/assets/157044424/0cfb7c5f-4529-41fe-8903-dfff6ef428d4)
 
-2. ClimateCourier: Data Delivery System
+Figure 6: ClimateCourier: Data Delivery System
 
 ![Figure_3_Design_Ideation](https://github.com/egr314team311/team311.github.io/assets/157044424/a1b6b207-f0f0-4cd9-bb62-a915f3a7d01e)
 
-3. WeatherBackPack: Sensor Built Backpack
+Figure 7: WeatherBackPack: Sensor Built Backpack
 
 ![Figure_4_Design_Ideation](https://github.com/egr314team311/team311.github.io/assets/157044424/c5bbd2ea-e7a0-4d5e-b4a5-9caacb8e681e)
 
@@ -110,12 +141,15 @@ Furthermore, the choice to incorporate advanced sensors in our design directly a
 
 Overall, the decisions made in the selected design phase were guided by our dedication to innovation, usability, and aesthetic appeal, reflecting our commitment to creating a product that is not only effective but also aligns with the ethical and professional standards we set for ourselves as future leaders in the industry. This design is a critical step toward achieving our vision of setting a new benchmark in environmental monitoring technology.
 
+Figure 8: Final Design Concept
 
 <img width="750" alt="Screenshot 2024-02-28 at 8 53 44 PM" src="https://github.com/egr314team311/team311.github.io/assets/157049797/d2c83435-305f-4127-9278-2d936b08f5f2">
 
 # Final Block Diagram
 
 Below is our updated block diagram. As one can see, we do not have anything on our 9V power rail. This is due to all of our components being able to be run at 3.3V or lower. Our battery has sufficient current to provide amperage to everything, as can be seen in Appendix E: Power Budget. Only the major components are shown here.
+
+Figure 9: Fully Updated Block Diagram
 
 ![image](https://github.com/egr314team311/team311.github.io/assets/157049797/981b826f-2ee6-4f0a-b797-522f94d9dc11)
 
@@ -126,6 +160,8 @@ In researching for our product, we charted our possible components, comparing th
 
 
 **Power Supply**
+
+Figure 10: Power Supply Selection
 
 ![Power_supply](https://github.com/egr314team311/team311.github.io/assets/157044424/0ca32452-60eb-4062-ac53-b68b9c520ea8)
 
@@ -145,6 +181,8 @@ In researching for our product, we charted our possible components, comparing th
 - **Performance Variability:** Performance can degrade in extreme temperatures, which may affect the reliability of our weather station in varying climates.
 
 **Humidity Sensor**
+
+Figure 11: Humidity Sensor Selection
 
 ![Humidity_sensor1](https://github.com/egr314team311/team311.github.io/assets/157044424/187161ce-ae3d-47dd-b6e2-c733565a1728)
 
@@ -182,6 +220,8 @@ In researching for our product, we charted our possible components, comparing th
 - **Electromagnetic Interference (EMI):** Switching regulators can produce EMI, which may require additional shielding or filtering to prevent interference with other components.
 - **Cost:** Generally more expensive than linear regulators, which could impact the overall budget of the product.
 
+Figure 12: Motor Driver Selection
+
 ![Motor_Driver](https://github.com/egr314team311/team311.github.io/assets/157044424/bb302ed1-da46-4ebf-8673-7ae12e9acaf2)
 
 ![Motor_Sensor_2](https://github.com/egr314team311/team311.github.io/assets/157044424/09c2bab1-0947-478f-b6db-385920897dd4)
@@ -203,6 +243,8 @@ In researching for our product, we charted our possible components, comparing th
 
 **Motor**
 
+Figure 13: Motor Selection Selection
+
 ![Motor](https://github.com/egr314team311/team311.github.io/assets/157044424/d51dfedf-38a4-41ea-9b12-6b1676ed5186)
 
 **Choice:** FIT0441 GEARMOTOR 159 RPM  (3V version)
@@ -218,6 +260,8 @@ In researching for our product, we charted our possible components, comparing th
 - **Size and Weight:** May be bulkier and heavier compared to non-geared motors, potentially impacting the design and portability of the device.
 
 **Temperature Sensor**
+
+Figure 14: Temperature Sensor Selection
 
 ![Temperature_Sensor](https://github.com/egr314team311/team311.github.io/assets/157044424/8b28b46b-e7e1-40c2-a439-2463afe32aff)
 
@@ -241,6 +285,8 @@ A full list of our components and materials can be found in Appendix F: BOM
 
 In this section, we highlight the effort put into finding the correct microcontroller for our project. There were many specifications to consider, so we have to carefully look at a varety of factors before ulitmately making a decision.
 
+Figure 15: Initial Microcontroller Selection
+
 ![Microcontroller_1](https://github.com/egr314team311/team311.github.io/assets/157044424/f1630acd-7bd2-4026-9686-a3216fc5bbfe)
 ![Microcontroller_2](https://github.com/egr314team311/team311.github.io/assets/157044424/ee9db6d1-e057-488c-afbb-f66444dddabb)
 ![Microcontroller_3](https://github.com/egr314team311/team311.github.io/assets/157044424/e6433a2b-ae50-4411-b3cf-2c322487e5ba)
@@ -248,12 +294,13 @@ In this section, we highlight the effort put into finding the correct microcontr
 
 The choice we settled on was the PIC18F26Q24, which enabled us to have enough SPI and I2C pins to fully implement all the requirements for the project. This option was initially thought to be perfect, until the microcontroller got delivered and we found out it only ran on MCC Melody, a version of the software that we were not familiar with. This was a challange that we put our best effort on facing, but we ended up not being able to implement all of our subsystems into the unfamiliar UI. In the end, we decided to pivot to a new microcontroller, the PIC18F26K22T, The parametrics and product features of the new device are pictured below. This new PIC met all the requirements of the project, while also using MCC Classic, so we could program in familiar territory. This change ended up saving the project from needless difficulty, which let us focus on other things, like the hardware proposal.
 
+Figure 16: Final Microcontroller Specifications
+
 ![image](https://github.com/egr314team311/team311.github.io/assets/157049797/4aca14fb-0350-4e77-a855-cc6acee9ad71)
 
 ![image](https://github.com/egr314team311/team311.github.io/assets/157049797/2aed08eb-4f26-4bd1-a985-d8c06a597d3b)
 
 ![image](https://github.com/egr314team311/team311.github.io/assets/157049797/a8e35a15-40ec-4d54-9501-db4988f173f9)
-
 
 [Link to Microcontroller Page](https://www.microchip.com/en-us/product/PIC18F26Q24)
 
@@ -281,19 +328,23 @@ By maintaining a focus on practicality and user-centric design, and by fostering
 
 Our hardware proposal details the schematic of how our PCB board will be laid out. Each section corresponds to a subsystem, which each team member is specializing in. 
 
+Figure 17: Final Hardware Schematic
+
 ![image](https://github.com/egr314team311/team311.github.io/assets/122222419/a4fea0fc-4ea5-4bb2-a221-fcd408345efc)
 
 
 As well, here is a prototype of the layout of our team PCB. This is subject to change according to specific needs.
+
+Figure 18: Front of PCB
 
 ![image](https://github.com/egr314team311/team311.github.io/assets/122222419/a9439f33-ffe5-4197-bc68-34ceb534a3a6)
 
 
 The back of the board as well:
 
+Figure 19: Back of PCB
+
 ![image](https://github.com/egr314team311/team311.github.io/assets/122222419/61f04097-3d15-4a25-acfb-98bcc1f8246b)
-
-
 
 
 # Final Software Implementation
@@ -318,10 +369,14 @@ In decision-making, we prioritized reliability and ease of use, recognizing that
 
 Through continuous integration and testing, we ensured that each software component interacted seamlessly with others and met the rigorous demands of real-world operation.
 
+Figure 20: Final Software UML Diagram
+
 ![image](https://github.com/egr314team311/team311.github.io/assets/157049797/03f0cab3-4a33-4670-995d-978802f8fec0)
 
 
 # System Verification
+
+Figure 21: System Verification Table
 
 ![image](https://github.com/egr314team311/team311.github.io/assets/157049797/cdfeaae3-55e8-4b71-947b-1ea010ce217a)
 
@@ -590,7 +645,7 @@ Selected Products:
 
 ![Wireless Weather Station](https://m.media-amazon.com/images/I/71w9oTthfpL.__AC_SX300_SY300_QL70_FMwebp_.jpg)
 
-Figure 1
+Figure 22
 
 Price: $129.99
 
@@ -620,7 +675,7 @@ _Table 2: 1-2 Star Review Negative Comments_
 
 ![Ambient Weather](https://m.media-amazon.com/images/I/41VDMltU02L._SY445_SX342_QL70_FMwebp_.jpg)
 
-Figure 2
+Figure 23
 
 Price: $189.99
 
@@ -654,7 +709,7 @@ Selected Products:
 
 ![5-in-1](https://m.media-amazon.com/images/I/71VU8I01dnL._SX425_.jpg)
 
-Figure 3
+Figure 24
 
 Price: $139.99
 
@@ -688,6 +743,8 @@ Selected Products:
 
 ![Earth Pak](https://m.media-amazon.com/images/I/81HWC3SShXL.__AC_SX300_SY300_QL70_FMwebp_.jpg)
 
+Figure 25
+
 Price: $82.75
 
 Vendor: Earth Pak Store
@@ -719,6 +776,8 @@ Selected Products:
 5.
 
 ![Wireless Remote Sensor](https://m.media-amazon.com/images/I/41SeupjNF3L._SX425_.jpg)
+
+Figure 26
 
 Price: $15.99
 
@@ -1194,9 +1253,13 @@ aa. WeatherBackPack: Sensor Built Backpack
 
 # Appendix E: Power Budget
 
+ Figure 27: Final Power Budget
+ 
  <img width="429" alt="image" src="https://github.com/egr314team311/team311.github.io/assets/157049797/3aff9504-baf6-49dc-be37-cbb90675ac52">
 
 # Appendix F: BOM
+
+ Figure 28: Final Bill of Materials
 
 <img width="1631" alt="image" src="https://github.com/egr314team311/team311.github.io/assets/157049797/3af7e059-9c0c-42ca-8da4-87ee9b1e6115">
 
