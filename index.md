@@ -14,8 +14,5 @@ Spring 2024
 * Todd Hayes
 
 ## Other Pages
-[Checkpoint 1](/checkpoint_1.md)
 
-[Checkpoint 2](/checkpoint_2.md)
-
-[Checkpoint 3](/checkpoint_3.md)
+[Report](/checkpoint_3.md)
