@@ -1,5 +1,5 @@
 
-# Checkpoint 3
+# Report
 
 # Organization Charter
 ## Team Goals
