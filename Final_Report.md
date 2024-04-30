@@ -10,8 +10,8 @@
 * Final Block Diagram
 * Final Component Selection
 * Final Microcontroller Selection
-* Final Hardware Proposal
-* Final Software Proposal
+* Final Hardware Implementation
+* Final Software Implementation
 * System Verification
 * Lessons Learned 
 * Recommendations for Future Students
@@ -257,7 +257,7 @@ The choice we settled on was the PIC18F26Q24, which enabled us to have enough SP
 
 [Link to Microcontroller Page](https://www.microchip.com/en-us/product/PIC18F26Q24)
 
-# Final Hardware Proposal
+# Final Hardware Implementation
 
 #### Hardware Design Satisfaction of Project Requirements
 
@@ -296,7 +296,7 @@ The back of the board as well:
 
 
 
-# Final Software Proposal
+# Final Software Implementation
 
 Below is a UML diagram that proposes a logic flow for the software we plan to implant in the PCB. It follows a reader-friendly pseudocode that will implement many feedback responses to let the user know when the product detects either a temperature or humidity level outside of the desired threshold. There are plans in the future to be able to have the threshold be determined by user input, but such a development will have to wait until the team is more well versed in ESP32 functionality. Click [here](/PIC_Code.md) to see an overview of our MPLab code.
 
