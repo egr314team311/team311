@@ -15,4 +15,4 @@ Spring 2024
 
 ## Other Pages
 
-[Report](/Final_Report.md)
+[Report](Final_Report.md)
