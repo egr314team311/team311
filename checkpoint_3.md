@@ -1,6 +1,27 @@
 
 # Report
 
+# Table of Contents
+
+* Organization Charter
+* User Needs, Benchmarking Product Requirements
+* Design Ideation
+* Selected Design
+* Final Block Diagram
+* Final Component Selection
+* Final Microcontroller Selection
+* Final Hardware Proposal
+* Final Software Proposal
+* System Verification
+* Lessons Learned 
+* Recommendations for Future Students
+* Appendices
+     - A: Team Organization
+     - B: User Needs and Requirements
+     - C: Product Requirements
+     - D: Sorting Design Ideas
+     - E: Power Budget
+
 # Organization Charter
 ## Team Goals
 
